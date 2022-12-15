@@ -128,6 +128,23 @@
             margin-top: 10px;
         }
 
+        @media (max-width: 500px) {
+            .r-button{
+                background-color: #036295;
+                border-radius: 20px;
+                border:1px solid #036295;;
+                color:white;
+                cursor:pointer;
+                font-size:0.8rem;
+                font-weight: bold;
+                letter-spacing: 0.1rem;
+                padding: 0.9rem 0.7rem;
+                text-tansfor:uppercase;
+                transition:transform 40ms ease-in;
+                margin-top: 10px;
+            }
+        }
+
         .form > .r-button{
             margin-top:1.5rem;
         }
