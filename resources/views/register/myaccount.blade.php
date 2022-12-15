@@ -10,6 +10,12 @@
             margin-right: 3%;
         }
 
+        h4{
+            overflow: hidden;
+            white-space:nowrap;
+            text-overflow: ellipsis;
+        }
+
         .box1{
             float:left;
             margin: 2% 0% 0% 3%;
@@ -49,9 +55,9 @@
                display:none;
             }
 
-            svg{
-                display:none;
-            }
+            /*svg{*/
+            /*    display:none;*/
+            /*}*/
 
             .box1-info{
                 display: none;
@@ -63,6 +69,22 @@
                 display:none;
             }
         }
+
+        @media (max-width: 400px) {
+            svg{
+                display:none;
+            }
+        }
+
+        @media (max-width: 700px) {
+            .box1{
+                float:left;
+                margin: 4% 0% 0% 3%;
+            }
+        }
+
+
+
         h4{
             /*color:#f6871b;*/
             font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;

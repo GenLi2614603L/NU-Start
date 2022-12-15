@@ -18,8 +18,7 @@
             /*border: solid 1px;*/
             display: block;
             width:74%;
-            margin-left: 13%;
-            margin-right: 13%;
+            margin:auto;
             min-width: 400px;
             overflow: hidden;
         }
@@ -41,8 +40,7 @@
             display: flex;
             -ms-flex-wrap: wrap;
             flex-wrap: wrap;
-            margin-right: 10px;
-            margin-left: 10px;
+            margin:auto;
         }
 
         .p-col-2 {
@@ -109,7 +107,7 @@
             font-size:0.8rem;
             font-weight: bold;
             letter-spacing: 0.1rem;
-            padding: 0.9rem 4rem;
+            padding: 0.9rem;
             text-tansfor:uppercase;
             transition:transform 40ms ease-in;
             margin-top: 30px;
@@ -151,7 +149,7 @@
             @csrf
             @method('put')
             <div class="row">
-                <div class="col-lg-12"style="margin-top:20px">
+                <div class="col-lg-12 col-sm-12"style="margin-top:20px">
                     <u><h5 class="form-section" style="float:left;text-decoration: underline; margin-right: 20px" >Section 1: Personal Details</h5></u>
 {{--                    <div>--}}
 {{--                        <a href="/edit"><h5 id="edit-link" style="color:cornflowerblue;">Complete infos</h5></a>--}}

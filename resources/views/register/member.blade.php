@@ -18,8 +18,7 @@
             /*border: solid 1px;*/
             display: block;
             width:74%;
-            margin-left: 13%;
-            margin-right: 13%;
+            margin:auto;
             min-width: 400px;
             overflow: hidden;
         }
@@ -51,6 +50,9 @@
             max-width:23%;
             margin-right: 1%;
             margin-left: 1%;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
         }
 
         .p-col-4{
@@ -58,6 +60,9 @@
             max-width:33%;
             margin-right: 1%;
             margin-left: 1%;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
         }
 
         .p-col-8{
@@ -86,6 +91,8 @@
             font-size: 0.9rem;
             margin-top: 0.5rem;
             overflow: hidden;
+            white-space:nowrap;
+            text-overflow: ellipsis;
         }
 
         textarea {
@@ -121,7 +128,6 @@
             padding: 0.9rem 3rem;
             text-tansfor:uppercase;
             transition:transform 40ms ease-in;
-            display:inline-block;
             margin-top: 20%;
             margin-bottom: 20%;
         }
@@ -136,8 +142,9 @@
 
         .member-btn{
             display: flex;
-            width:100%;text-align: center;
-            height:100px;
+            width:100%;
+            text-align: center;
+            /*height:100px;*/
         }
 
         .span-btn{
@@ -166,7 +173,7 @@
         }
     </style>
     <div class="row align-items-center text-white justify-content-center" id="account-bg">
-        <div class="profile col-18 col-lg-auto pl-0 pl-lg-3">
+        <div class="profile col-18 col-lg-auto pl-0 pl-lg-3" id="location-1">
             <div style="width: 70px; aspect-ratio: 1; border-width: 4px;" class="rounded-circle bg-dark img-thumbnail d-flex align-items-center justify-content-center">
                 <span class="h1 m-0 p-0 ">{{ substr($user, 0, 1) }}</span>
             </div>
@@ -185,7 +192,7 @@
              <u><h5 class="form-section" style="float:left;text-decoration: underline; margin-right: 20px;margin-top: 20px">Section 1: Information about your organisation</h5></u>
          </div>
 
-         <div class="col-lg-12" style="margin-top: 1%">
+         <div class="col-lg-12" style="margin-top: 1%;">
              <div class="p-col-12">
                  <label class="label-format" for="OrganisationName"><span class="signal">*</span>Organisation Name</label>
              </div>
@@ -200,7 +207,7 @@
              </div>
          </div>
          </div>
-         <div class="row col-lg-12" >
+         <div class="row col-lg-12 col-xs-12" >
              <div class="p-col-4" style="display:inline-block;">
                  <label class="label-format" for="exampleOrganisationEmail"><span class="signal">*</span>Organisation Email</label>
                  <input type="text" class="form-control" value="{{ old('OrganisationEmail') }}" name="OrganisationEmail" id="exampleOrganisationEmail" placeholder="Email address">
@@ -319,18 +326,18 @@
          <h5 class="form-section" style="float:left;text-decoration: underline; margin-right: 20px;margin-top: 10px" >Section 4: Formal information</h5>
      </div>
      <div class="row col-lg-12" >
-         <div class="p-col-4" style="display:inline-block;">
+         <div class="col-xs-4" style="display:inline-block;margin-right:2%">
              <label class="label-format" for="exampleEstablish"><span class="signal">*</span>What year was your organisation established?</label>
              <input type="text" class="form-control" value="{{ old('Establish') }}" name="Establish" id="exampleEstablish" placeholder="Year of established">
              @error('Establish')
              <p>{{ $errors->first('Establish') }}</p>
              @enderror
          </div>
-         <div class="p-col-3" style="display:inline-block;">
+         <div class="col-xs-4" style="display:inline-block;margin-right:2%">
              <label class="label-format" for="exampleCompanyNumber">Company Number (if applicable)</label>
              <input type="text" class="form-control" value="{{ old('CompanyNumber') }}" name="CompanyNumber" id="exampleCompanyNumber" placeholder="Company Number">
          </div>
-         <div class="p-col-3" style="display:inline-block;">
+         <div class="col-xs-4" style="display:inline-block;margin-right:2%">
              <label class="label-format" for="exampleCharityNumber">Charity Number (if applicable)</label>
              <input type="text" class="form-control"  value="{{ old('CharityNumber') }}" name="CharityNumber" id="exampleCharityNumber" placeholder="Charity Number">
          </div>
@@ -462,7 +469,11 @@
             <p class="p-button next" onclick="next()">Next</p>
          </span>
          <span style="height:100px;">
+             @if(!($MemberInfos->isEmpty())==1)
+                 <button class="p-button sub" style="margin-top:15%;color:gray" disabled="disabled">Submitted</button>
+             @else
             <button class="p-button sub" type="submit" style="margin-top:18%">Submit</button>
+             @endif
          </span>
      </div>
      <hr>

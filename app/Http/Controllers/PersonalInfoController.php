@@ -12,7 +12,8 @@ class PersonalInfoController extends Controller
 {
     public function index(){
         $user = Auth::user()->name;
-        return view('register.personal',['user'=> $user]);
+        $PersonalInfos = DB::table('personal_infos')->where('p_email','=',Auth::user()->email)->get();
+        return view('register.personal',['user'=> $user,'PersonalInfos'=>$PersonalInfos]);
     }
 
 

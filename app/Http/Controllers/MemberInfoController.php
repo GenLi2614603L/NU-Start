@@ -13,7 +13,8 @@ class MemberInfoController extends Controller
     //
     public function index(){
         $user = Auth::user()->name;
-        return view('register.member',['user'=> $user]);
+        $MemberInfos = DB::table('member_infos')->where('m_email','=',Auth::user()->email)->get();
+        return view('register.member',['user'=> $user,'MemberInfos'=>$MemberInfos]);
     }
 
     public function store(){
