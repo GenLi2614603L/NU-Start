@@ -395,7 +395,7 @@
                   <div class="row">
                     <div class="col-lg-8 col-md-8">
                     <p class="mt-15"> Registered in the UK : Company no. 06556836 | Registered Charity no. 1138047  </p>
-                    <p>Developed by Vannam</p>
+                    <p>Developed by Gen Li & Vannam</p>
                     </div>
                     <div class="col-lg-4 col-md-4 text-left text-md-right">
                     <!--  <div class="social-icons color-hover mt-10">
