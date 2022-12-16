@@ -1,11 +1,31 @@
 @extends('layouts.default')
 @section('title', 'Counselling')
 @section('page-content')
+<section class="service white-bg mt-80 sm-mt-40">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="title-effect">Counselling Services</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <img src="images/counselling.png" class="img-fluid full-width mt-10">
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <section class="page-section-ptb data-table">
     <div class="container">
       <div class="row">
        <div class="col-lg-12 col-md-12">
-        <h1 class="mb-30">Counselling Services </h1>
+{{--        <h1 class="mb-30">Counselling Services </h1>--}}
         <h6>THE SERVICES THAT ARE ON OFFER AND THAT CAN BE DELIVERED INCLUDE THE FOLLOWING:</h6>
         <br>
            <div class="counselling-table">

@@ -45,7 +45,7 @@
           </div>
           <div class="blog-detail">
               <div class="entry-title mb-10">
-                  <a href="{{url('the-money-management-programme')}}"><h2 class="text-orange">The Money Management programme</h2></a>
+                  <a href="{{url('the-money-management-programme')}}"><h2 class="text-orange">The Money Management Workshop</h2></a>
               </div>
               <div class="entry-meta mb-10">
                   <ul>

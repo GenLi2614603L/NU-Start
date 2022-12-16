@@ -34,7 +34,7 @@
 			<h3 class="mb-30 text-orange">How do I join?</h3>
 			<p>Applications are open for our current membership year which runs from 1 April 2022 to 31 March 2023.</p>
             <div>
-                <a href="/member"><h5 id="edit-link" style="color:cornflowerblue;">Apply online</h5></a>
+                <a href="/member"><h4 id="edit-link" style="color:royalblue;">Become a member</h4></a>
             </div>
 			<!--<div class="row">
                 <div class="col-lg-4 col-md-4 text-center mb-30 membership-box">

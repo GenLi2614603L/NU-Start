@@ -20,7 +20,6 @@
     <div class="row">
       <div class="col-lg-12 text-center">
         <img src="images/film-production-ba-1200x400.jpg" class="img-fluid full-width mt-10">
-
       </div>
     </div>
 
@@ -57,28 +56,14 @@
 						</a>
 					</div>
 				</div>
-{{--            <div class="col-lg-12 col-md-12">--}}
-{{--                <div class="action-box">--}}
-{{--                    <div class="action-box-text">--}}
-{{--                        <h3><strong> Hurry Up! </strong> to improve your skill</h3>--}}
-{{--                    </div>--}}
-{{--                        <a class="button" href="#">--}}
-{{--                            <span>Apply Online </span>--}}
-
-{{--                        </a>--}}
-
-{{--                </div>--}}
-                <img src="images/film-flyer.png" class="img-fluid full-width" style="margin-top: 15px" >
-		</div>
-
-
-
-
-    </div>
-
-
+                <div>
+                    <img src="images/film-flyer.png" class="img-fluid full-width" style="margin-top: 15px" >
+                    @include('layouts.service')
+                </div>
+		    </div>
+        </div>
   </div>
-  </div>
+</div>
 </section>
 
 <!--=================================Welcome to Nu Start -->
