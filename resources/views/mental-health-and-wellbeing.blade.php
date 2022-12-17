@@ -1,7 +1,7 @@
 @extends('layouts.default')
 @section('title', 'Mental Health and wellbeing')
 @section('page-content')
-<!--=================================Welcome to Nu Start --> 
+<!--=================================Welcome to Nu Start -->
 
 <section class="white-bg page-section-ptb">
    <div class="container">
@@ -9,7 +9,7 @@
          <div class="col-lg-6 p-tag">
             <div class="section-title">
                <h1 class="mb-30">Mental Health and Wellbeing</h1>
-              
+
             </div>
             <p>
                 We believe that people with mental health issues have the right and the abilities to lead independent, fulfilling lives as part of their communities. The people who use our services are at the heart of everything we do. They influence and shape the support they receive from us, and the way our services are run. These core beliefs underpin the vision, mission and values we aspire to.
@@ -28,12 +28,21 @@
             <img class="img-fluid mx-auto" src="images/mental-health-and-wellbeing.png" alt="">
          </div>
          <!--==========Service==========-->
-            @include('layouts.service')
             <!--==========Service==========-->
       </div>
    </div>
 </section>
-
+<section class="mb-80">
+    <div class="container">
+        <div class="">
+            <div class="row page-section-ptb">
+                <div class="col-lg-12 col-md-12" style="padding:1%">
+                    @include('layouts.service')
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!--<section class="service white-bg mt-80 sm-mt-40">
    <div class="container">
@@ -41,7 +50,7 @@
          <div class="col-lg-12">
             <div class="section-title">
                <h1 class="mb-30">Mental Health and wellbeing</h1>
-               
+
             </div>
          </div>
       </div>
@@ -65,8 +74,8 @@
             </p>
          </div>
       </div>
-      
+
    </div>
 </section>-->
-<!--=================================Welcome to Nu Start --> 
+<!--=================================Welcome to Nu Start -->
 @endsection

@@ -35,6 +35,10 @@ read more -->
             object-fit:cover;
             object-position: center;
         }
+
+        #list-image{
+            height:240px;
+        }
     }
 </style>
 <section class="page-section-ptb">

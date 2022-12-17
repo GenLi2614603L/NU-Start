@@ -1,7 +1,7 @@
 @extends('layouts.default')
 @section('title', 'Volunteer ')
 @section('page-content')
-<!--=================================Welcome to Nu Start --> 
+<!--=================================Welcome to Nu Start -->
 
 <section class="white-bg page-section-ptb">
    <div class="container">
@@ -9,7 +9,7 @@
          <div class="col-lg-6 p-tag">
             <div class="section-title">
                <h1 class="mb-30">Volunteer</h1>
-              
+
             </div>
             <p>
                 From day one volunteers have been at the heart of NU Start.
@@ -48,12 +48,21 @@
             <img class="img-fluid mx-auto" src="images/volunters.png" alt="">
          </div>
          <!--==========Service==========-->
-            @include('layouts.service')
             <!--==========Service==========-->
       </div>
    </div>
 </section>
-
+<section class="mb-80">
+    <div class="container">
+        <div class="">
+            <div class="row page-section-ptb">
+                <div class="col-lg-12 col-md-12" style="padding:1%">
+                    @include('layouts.service')
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!--<section class="service white-bg mt-80 sm-mt-40">
    <div class="container">
@@ -104,8 +113,8 @@
             </p>
          </div>
       </div>
-      
+
    </div>
 </section>-->
-<!--=================================Welcome to Nu Start --> 
+<!--=================================Welcome to Nu Start -->
 @endsection

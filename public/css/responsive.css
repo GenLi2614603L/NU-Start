@@ -2235,6 +2235,13 @@ h2 {font-size: 22px; line-height: 30px;}
 .business-banner-06 p { display: none; }
 .business-banner-06 h1 { margin-bottom: 0; font-size: 24px; }
 
+
+}
+@media (max-width: 1200px){
+    .page-section-ptb {
+        padding: 20px 0;
+        width: 100%;
+    }
 }
 
 

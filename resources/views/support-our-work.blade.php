@@ -19,10 +19,21 @@
             <img class="img-fluid mx-auto" src="images/support-our-work.png" alt="">
          </div>
          <!--==========Service==========-->
-            @include('layouts.service')
+
             <!--==========Service==========-->
       </div>
    </div>
+</section>
+<section class="mb-80">
+    <div class="container">
+        <div class="">
+            <div class="row page-section-ptb">
+                <div class="col-lg-12 col-md-12" style="padding:1%">
+                    @include('layouts.service')
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <!--=================================Welcome to Nu Start -->
 @endsection

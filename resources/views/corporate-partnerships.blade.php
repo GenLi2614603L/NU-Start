@@ -1,14 +1,14 @@
 @extends('layouts.default')
 @section('title', 'Corporate Partnerships')
 @section('page-content')
-<!--=================================Welcome to Nu Start --> 
+<!--=================================Welcome to Nu Start -->
 <section class="white-bg page-section-ptb">
    <div class="container">
       <div class="row">
          <div class="col-lg-6 p-tag">
             <div class="section-title">
                <h1 class="mb-30">Corporate Partnerships</h1>
-              
+
             </div>
             <p>
             From staff fundraising, to volunteering and raising awareness of our cause, NU Start’s corporate partners play a crucial role in supporting youth across London.
@@ -24,7 +24,7 @@
             And, when you work with us, you can be assured that your efforts are truly changing the lives of young Londoners and inspiring the next generation to be the best they can be. Whether you are volunteering or raising money, the impact of your team will benefit thousands of young people.
         </p>
         <p>
-            Interested in helping the next generation? Email our Partnership Manager, <a href="mailto:mark.mcpherson@nustart.org">mark.mcpherson@nustart.org</a> 
+            Interested in helping the next generation? Email our Partnership Manager, <a href="mailto:mark.mcpherson@nustart.org">mark.mcpherson@nustart.org</a>
 
         </p>
          </div>
@@ -32,10 +32,21 @@
             <img class="img-fluid mx-auto" src="images/corporate-partners.png" alt="">
          </div>
          <!--==========Service==========-->
-            @include('layouts.service')
+          
             <!--==========Service==========-->
       </div>
    </div>
+</section>
+<section class="mb-80">
+    <div class="container">
+        <div class="">
+            <div class="row page-section-ptb">
+                <div class="col-lg-12 col-md-12" style="padding:1%">
+                    @include('layouts.service')
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <!--<section class="terms-and-conditions page-section-ptb">
   <div class="container">
@@ -64,13 +75,13 @@
             And, when you work with us, you can be assured that your efforts are truly changing the lives of young Londoners and inspiring the next generation to be the best they can be. Whether you are volunteering or raising money, the impact of your team will benefit thousands of young people.
         </p>
         <p>
-            Interested in helping the next generation? Email our Partnership Manager, <a href="mailto:mark.mcpherson@nustart.org">mark.mcpherson@nustart.org</a> 
+            Interested in helping the next generation? Email our Partnership Manager, <a href="mailto:mark.mcpherson@nustart.org">mark.mcpherson@nustart.org</a>
 
         </p>
-        
-     </div> 
+
+     </div>
     </div>
   </div>
 </section>-->
-<!--=================================Welcome to Nu Start --> 
+<!--=================================Welcome to Nu Start -->
 @endsection
