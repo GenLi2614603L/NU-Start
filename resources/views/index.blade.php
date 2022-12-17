@@ -183,7 +183,7 @@
         <!--<img class="img-fluid mx-auto" src="https://images.squarespace-cdn.com/content/v1/57857edc6b8f5b322def8048/1599080421657-TCE3RAQP9LR040IVU6PI/Happy+Employees.jpg" alt="">-->
         <div class="row justify-content-center mt-10">
            <div class="col-md-9 col-sm-9">
-              <h2 class="mb-40 text-orange text-center" style="margin-top: 4%">Join Our Mailling List</h2>
+              <h2 class="mb-40 text-orange text-center" style="margin-top: 5%">Join Our Mailling List</h2>
               <div class="login-2-form pb-50 clearfix">
                     @if(session()->has('success'))
                         <div class="alert alert-success alert-dismissible fade show" role="alert">
