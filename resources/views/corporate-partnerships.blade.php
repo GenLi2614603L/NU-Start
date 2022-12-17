@@ -32,20 +32,18 @@
             <img class="img-fluid mx-auto" src="images/corporate-partners.png" alt="">
          </div>
          <!--==========Service==========-->
-          
+
             <!--==========Service==========-->
       </div>
    </div>
 </section>
 <section class="mb-80">
     <div class="container">
-        <div class="">
             <div class="row page-section-ptb">
                 <div class="col-lg-12 col-md-12" style="padding:1%">
                     @include('layouts.service')
                 </div>
             </div>
-        </div>
     </div>
 </section>
 <!--<section class="terms-and-conditions page-section-ptb">

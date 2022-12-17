@@ -43,13 +43,13 @@ read more -->
 </style>
 <section class="page-section-ptb">
   <div class="container">
-  <div class="row justify-content-center">
-      <div class="col-lg-8">
-      <div class="section-title text-center">
-          <!--<h2 class="title-effect">Sevices</h2>-->
-          </div>
-      </div>
-  </div>
+{{--  <div class="row justify-content-center">--}}
+{{--      <div class="col-lg-8">--}}
+{{--      <div class="section-title text-center">--}}
+{{--          <!--<h2 class="title-effect">Sevices</h2>-->--}}
+{{--          </div>--}}
+{{--      </div>--}}
+{{--  </div>--}}
 {{--  <div class="row">--}}
 {{--      <div class="col-lg-4 col-md-4 col-sm-4 xs-mb-40">--}}
 {{--          <img class="img-fluid" src="{{ asset('images/services/1- When I grow up I want to be a Doctor.jpg') }}" alt="">--}}
