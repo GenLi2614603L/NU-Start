@@ -16,7 +16,7 @@ NOTE: This file contains responsive Media Queries of the Template. You can edit/
 
 /*************************
        1700px
-*************************/    
+*************************/
 @media (max-width: 1700px) {
 
 .portfolio-title { padding: 60px 60px 30px; }
@@ -41,7 +41,7 @@ NOTE: This file contains responsive Media Queries of the Template. You can edit/
 .awards-bg .awards:after { right: -20px; }
 .hotel-banner-checkout .checkout .checkout-name h3 { font-size: 20px; }
 
-} 
+}
 
 @media (max-width: 1500px) {
 
@@ -66,7 +66,7 @@ NOTE: This file contains responsive Media Queries of the Template. You can edit/
 .awards-bg, .certi-bg { padding: 80px 30px; }
 .pizza-dish-main { overflow: hidden;
 }
- 
+
 
 }
 
@@ -135,7 +135,7 @@ NOTE: This file contains responsive Media Queries of the Template. You can edit/
 .our-blog .blog-box-info p { font-size: 14px; }
 .our-blog .blog-box-info { padding: 15px 20px; }
 /*home-5*/
-.team-3 .team-social-icon a i { font-size: 12px; height: 30px; line-height: 31px; width: 30px; } 
+.team-3 .team-social-icon a i { font-size: 12px; height: 30px; line-height: 31px; width: 30px; }
 /*about-1 page*/
 .our-history .history-content { padding: 125px 20px; }
 /*about me*/
@@ -168,7 +168,7 @@ NOTE: This file contains responsive Media Queries of the Template. You can edit/
 .hotel-banner-checkout .checkout .checkout-name h3 { font-size: 18px; }
 .hotel-banner-checkout .checkout .checkout-date .form-control, .hotel-banner-checkout .checkout .checkout-date .nice-select span { font-size: 24px; }
 .hotel-banner-checkout .checkout .checkout-date label.mb-30 { margin-bottom: 15px !important; }
-.hotel-banner-checkout .checkout .checkout-date > span { margin-bottom: 5px !important;  } 
+.hotel-banner-checkout .checkout .checkout-date > span { margin-bottom: 5px !important;  }
 
 }
 
@@ -410,7 +410,7 @@ h4 {font-size: 18px;}
 **************************************/
  .law-timeline .timeline-centered:before { left: 56px; }
 
- 
+
 /*************************************
              v1.0.9
 **************************************/
@@ -434,7 +434,7 @@ h4 {font-size: 18px;}
 .hotel-banner-checkout .checkout .checkout-name { padding: 20px; }
 .hotel-banner-checkout .checkout .checkout-name h3 { font-size: 14px; margin-bottom: 0 !important; }
 .awards-bg, .certi-bg { padding: 40px 20px; }
-.hotel-banner-checkout .checkout .checkout-date .button span { top: inherit; line-height: 54px; } 
+.hotel-banner-checkout .checkout .checkout-date .button span { top: inherit; line-height: 54px; }
 
 
 /*************************************
@@ -446,17 +446,17 @@ h4 {font-size: 18px;}
 .bitcoin-custom-content .counter label { font-size: 14px; }
 .bitcoin-custom-content .counter span.icon { font-size: 40px; }
 
-} 
+}
 
 @media only screen and (min-width: 768px) and (max-width: 999px) {
- .container{ max-width:96%; } 
+ .container{ max-width:96%; }
 }
 
 @media(max-width:991px) {
 
 /*************************
      Margin top
-*************************/ 
+*************************/
 .sm-mt-0 { margin-top: 0 !important; }
 .sm-mt-10 { margin-top: 10px !important; }
 .sm-mt-15 { margin-top: 15px !important; }
@@ -466,7 +466,7 @@ h4 {font-size: 18px;}
 .sm-mt-50 { margin-top: 50px !important; }
  /*************************
     Margin right
-*************************/ 
+*************************/
 .sm-mr-0 { margin-right: 0!important }
 .sm-mr-10 { margin-right: 10px !important; }
 .sm-mr-15 { margin-right: 15px !important; }
@@ -513,7 +513,7 @@ h4 {font-size: 18px;}
 .sm-pr-20 { padding-right: 20px !important; }
 .sm-pr-30 { padding-right: 30px !important; }
 .sm-pr-40 { padding-right: 40px !important; }
-.sm-pr-50 { padding-right: 50px !important; } 
+.sm-pr-50 { padding-right: 50px !important; }
  /*************************
     Padding bottom
 *************************/
@@ -547,10 +547,12 @@ h5 {font-size: 15px;}
 .mega-menu { min-height: 60px; }
 .mega-menu .menu-logo > li > a { padding: 0; }
 .mega-menu .menu-logo { padding: 10px 0; }
-.search-cart span.icon, .search-cart i.icon { line-height: 50px; } 
-.fancy .mega-menu > section.menu-list-items .menu-links { float: none; position: absolute; width: 100%; top: 100%; } 
+.search-cart span.icon, .search-cart i.icon { line-height: 50px; }
+.fancy .mega-menu > section.menu-list-items .menu-links { float: none; position: absolute; width: 100%; top: 100%; }
 .header.fancy .mega-menu > section.menu-list-items { box-shadow: none; }
-.mega-menu .menu-logo img { height: 30px; margin: 5px 0; }
+.mega-menu .menu-logo img {
+    /*height: 30px; */
+    margin: 5px 0; }
 .mega-menu .menu-links { overflow: auto; }
 .mega-menu .menu-links > li.active .drop-down-multilevel a:hover { color: #323232; }
 .mega-menu .drop-down-multilevel li:hover > a i.fa { color: #323232; }
@@ -593,7 +595,7 @@ header.one-page { position: relative; background: #323232; }
 .navbar-nav { float: none; }
 .navbar-inverse .navbar-toggle { border:0; }
 .navbar-toggle { margin-top: 14px; }
-.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover { background: transparent; } 
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover { background: transparent; }
 .header.burger { padding: 10px 10px;   }
 .header.burger .logo img  { height: 30px; margin-top: 10px; }
 .vertical-header { padding-left: 0; }
@@ -627,7 +629,7 @@ header.one-page { position: relative; background: #323232; }
 .navbar .navbar-brand { padding: 15px 0; }
 .logo-center .mega-menu .menu-logo { padding: 14px 0; }
 .header.fullWidth .container-fluid { padding: 0 20px; }
- .mega-menu .drop-down-multilevel { width: inherit; } 
+ .mega-menu .drop-down-multilevel { width: inherit; }
  .mega-menu .menu-links { padding: 10px; }
 
 /*sticky header */
@@ -998,7 +1000,7 @@ footer.error-03 .social-icons ul, footer.error-04 .social-icons ul { display: in
 **************************************/
 .book-banner .row.row-eq-height { display: flex; width: 100%; }
 .plumber-banner .row.row-eq-height { display: flex; width: 100%; }
-.plumber-banner .row.row-eq-height .col-sm-12 {position: inherit;} 
+.plumber-banner .row.row-eq-height .col-sm-12 {position: inherit;}
 .plumber-banner .slider-content-text { left: 0; }
 .product-feature img, .toch-future img { display: none; }
 .toch-future { text-align: center; }
@@ -1044,7 +1046,7 @@ header.one-page.light .navbar-inverse .navbar-collapse, header.one-page.light .n
 .bitcoin-custom-content-02 .button {margin-top: 30px;}
 
 .skateboard-banner .row.row-eq-height { display: flex; width: 100%; }
-.skateboard-banner .row.row-eq-height .col-sm-12 {position: inherit;} 
+.skateboard-banner .row.row-eq-height .col-sm-12 {position: inherit;}
 .skateboard-banner .slider-content-text { left: 20px; }
 .skateboard-banner h1 { font-size: 80px; line-height: 80px; }
 .skateboard-about .about-image { height: 460px; }
@@ -1075,7 +1077,7 @@ header.one-page.light .navbar-inverse .navbar-collapse, header.one-page.light .n
 **************************************/
 .barber-header .mega-menu .topbar-social {display: none; }
 .barber-header .mega-menu .topbar-telephone { display: none; }
-.barber-header .mega-menu .menu-logo > li > a img { height: 30px; } 
+.barber-header .mega-menu .menu-logo > li > a img { height: 30px; }
 .barber-header.logo-center .mega-menu .menu-logo { padding: 12px 0; }
 .barber-title span { top: -45px; font-size: 100px; }
 .barber .about-history { margin: 40px 0px; }
@@ -1090,7 +1092,7 @@ header.one-page.light .navbar-inverse .navbar-collapse, header.one-page.light .n
 .tattoo-banner h1 { font-size: 54px; line-height: 76px; }
 .price-tattoo { padding: 0; }
 .burger-dark { background: #000 !important; }
-.burger-dark span.text-white { color: #ffffff !important; }       
+.burger-dark span.text-white { color: #ffffff !important; }
 .team .barber-section-title .w-50 { width: 100%!important; }
 
 
@@ -1142,7 +1144,7 @@ header.one-page.light .navbar-inverse .navbar-collapse, header.one-page.light .n
 @media(max-width:767px) {
 /*************************
      Margin top
-*************************/ 
+*************************/
 .xs-mt-0 { margin-top: 0 !important; }
 .xs-mt-10 { margin-top: 10px !important; }
 .xs-mt-15 { margin-top: 15px !important; }
@@ -1151,7 +1153,7 @@ header.one-page.light .navbar-inverse .navbar-collapse, header.one-page.light .n
 .xs-mt-40 { margin-top: 40px !important; }
  /*************************
     Margin right
-*************************/ 
+*************************/
 .xs-mr-0 { margin-right: 0!important }
 .xs-mr-10 { margin-right: 10px !important; }
 .xs-mr-15 { margin-right: 15px !important; }
@@ -1174,8 +1176,8 @@ header.one-page.light .navbar-inverse .navbar-collapse, header.one-page.light .n
 .xs-ml-10 { margin-left: 10px !important; }
 .xs-ml-15 { margin-left: 15px !important; }
 .xs-ml-20 { margin-left: 20px !important; }
-.xs-ml-30 { margin-left: 30px !important; } 
-.xs-ml-40 { margin-left: 40px !important; } 
+.xs-ml-30 { margin-left: 30px !important; }
+.xs-ml-40 { margin-left: 40px !important; }
  /*************************
     Padding top
 *************************/
@@ -1192,8 +1194,8 @@ header.one-page.light .navbar-inverse .navbar-collapse, header.one-page.light .n
 .xs-pr-10 { padding-right: 10px !important; }
 .xs-pr-15 { padding-right: 15px !important; }
 .xs-pr-20 { padding-right: 20px !important; }
-.xs-pr-30 { padding-right: 30px !important; } 
-.xs-pr-40 { padding-right: 40px !important; } 
+.xs-pr-30 { padding-right: 30px !important; }
+.xs-pr-40 { padding-right: 40px !important; }
  /*************************
     Padding bottom
 *************************/
@@ -1296,7 +1298,7 @@ ul.page-breadcrumb { padding-top: 30px;}
 .blog .timeline li.entry-date { text-align: left; }
 .blog .timeline li.entry-date span {  font-size: 13px; padding: 8px 10px;  }
 .blog.timeline-sidebar .timeline li.timeline-inverted .timeline-badge { left: 23px; }
-.blog .timeline > li:nth-child(2) { margin-top: 0; } 
+.blog .timeline > li:nth-child(2) { margin-top: 0; }
 .blog .timeline > li.timeline-inverted { margin-top: 10px; }
 .blog.timeline-sidebar .timeline > li.timeline-inverted { margin-bottom: 20px; }
 .blog.timeline-sidebar .timeline > li.timeline-inverted:nth-child(2) { margin-bottom: 0px; }
@@ -1396,7 +1398,7 @@ ul.page-breadcrumb { padding-top: 30px;}
              v1.0.2
 **************************************/
 .footer .container-fluid { padding: 0 15px; }
-.text-left.mt-100 { margin-top: 40px !important; } 
+.text-left.mt-100 { margin-top: 40px !important; }
 
 /*************************************
              v1.0.3
@@ -1524,7 +1526,7 @@ ul.page-breadcrumb { padding-top: 30px;}
 .barber-team { background-size: 100%; }
 .pricing-image img { width: 100%; }
 .team.team-list .team-description { text-align: center; }
-.tattoo-section-title, .tattoo-section-title-02 { display: none; }      
+.tattoo-section-title, .tattoo-section-title-02 { display: none; }
 .barber-section-title .w-50, .barber-section-title .w-25 { width: 100%!important; }
 .team .barber-section-title { bottom: 30px; }
 
@@ -1570,8 +1572,8 @@ h3 { font-size: 22px; }
 /*action-box*/
 .action-box { text-align: center; }
 .action-box .action-box-button { text-align: center; }
-  /*skills*/ 
-.skills-2.col-2 li { width: 100%; margin-bottom: 0; margin-right: 0; float: none; } 
+  /*skills*/
+.skills-2.col-2 li { width: 100%; margin-bottom: 0; margin-right: 0; float: none; }
 .skills-2.col-2.mr-60 { margin-right: 0 !important; }
 /*error*/
 .error-block { padding: 30px 0px; }
@@ -1583,7 +1585,7 @@ h3 { font-size: 22px; }
 .maintenance-2 .maintenance-main h1 { font-size: 32px; }
  /*portfolio*/
 .isotope.columns-3 .grid-item { width: 100%; }
-.isotope.columns-4 .grid-item { width: 100%; } 
+.isotope.columns-4 .grid-item { width: 100%; }
 /*============== New ==============*/
 /*about-1 page*/
 .clients-logo.line img{height:65px;}
@@ -1611,7 +1613,7 @@ h3 { font-size: 22px; }
 .comments-1.comments-2 { padding-left: 40px; }
 .comments-1 .comments-photo { float: none; }
 .comments-1.comments-2 .comments-info { padding: 20px 0px 10px; }
- 
+
 /*team single*/
 .our-team .team-details .social { float: none !important; width: 100%; margin-bottom: 20px; }
 /*shortcode*/
@@ -1650,7 +1652,7 @@ h3 { font-size: 22px; }
 .portfolio-banner .slider-content { width: 100%; }
 .personal-typer-banner h1 { font-size: 50px; line-height: 50px; }
 .personal-typer-banner h1 span { font-size: 25px; }
-.services-text-box-green { padding: 60px 15px !important; } 
+.services-text-box-green { padding: 60px 15px !important; }
 .services-text-box-black { padding: 60px 15px !important; }
  .team.team-list .team-photo img { width: 100%; }
  .isotope.columns-3 .grid-item { padding: 0 0px 15px 0; }
@@ -1730,14 +1732,14 @@ h3 { font-size: 22px; }
 .agency-02-contact .pl-50.pr-50 { padding: 15px !important; }
 .agency-02-history-who { padding: 30px; }
 .banner-agency-02 h1 { font-size: 24px; }
-.portfolio-parallax-banner h2 { font-size: 40px; line-height: 40px; } 
+.portfolio-parallax-banner h2 { font-size: 40px; line-height: 40px; }
 
 /*************************************
              v1.0.9
 **************************************/
 .coming-soon-big .countdown.medium span { font-size: 30px; line-height: 30px; }
 .coming-soon-big .countdown.medium p { font-size: 16px; line-height: 16px; }
-.error-05 h1 { font-size: 60px; line-height: 60px; } 
+.error-05 h1 { font-size: 60px; line-height: 60px; }
 .error-05 h3, .error-05 span { font-size: 40px; }
 .error-03 .content h2 { font-size: 32px; line-height: 32px; }
 .error-03 .content h1 { font-size: 40px; line-height: 40px; }
@@ -1803,7 +1805,7 @@ h3 { font-size: 22px; }
 .pizza-menu .pr-60 { padding-right: 0 !important; }
 .masonry.columns-1 .masonry-item, .masonry.columns-2 .masonry-item, .masonry.columns-3 .masonry-item, .masonry.columns-4 .masonry-item, .masonry.columns-5 .masonry-item { padding-right: 0; }
 .isotope.columns-1 .grid-item, .isotope.columns-2 .grid-item, .isotope.columns-3 .grid-item, .isotope.columns-4 .grid-item, .masonry.columns-5 .masonry-item { padding-right: 0; }
- .conference-split.split-section .img-side { display: none; } 
+ .conference-split.split-section .img-side { display: none; }
  .plumber-banner .slider-content-image { left: 0; }
 
 /*************************************
@@ -1831,17 +1833,24 @@ h3 { font-size: 22px; }
 
 }
 
-@media(max-width: 767px) { 
+@media(max-width: 767px) {
  .container { max-width: 100%; }
+}
+
+@media(max-width: 1200px) {
+    .page-section-ptb {
+        padding: 50px 0;
+        width:100%;
+    }
 }
 
 
 
-@media(max-width:479px) { 
+@media(max-width:479px) {
 
 /*************************
      Margin top
-*************************/ 
+*************************/
 .xx-mt-0 { margin-top: 0 !important; }
 .xx-mt-10 { margin-top: 10px !important; }
 .xx-mt-15 { margin-top: 15px !important; }
@@ -1850,7 +1859,7 @@ h3 { font-size: 22px; }
 .xx-mt-40 { margin-top: 40px !important; }
 /*************************
     Margin right
-*************************/ 
+*************************/
 .xx-mr-0 { margin-right: 0!important }
 .xx-mr-10 { margin-right: 10px !important; }
 .xx-mr-15 { margin-right: 15px !important; }
@@ -1873,8 +1882,8 @@ h3 { font-size: 22px; }
 .xx-ml-10 { margin-left: 10px !important; }
 .xx-ml-15 { margin-left: 15px !important; }
 .xx-ml-20 { margin-left: 20px !important; }
-.xx-ml-30 { margin-left: 30px !important; } 
-.xx-ml-40 { margin-left: 40px !important; } 
+.xx-ml-30 { margin-left: 30px !important; }
+.xx-ml-40 { margin-left: 40px !important; }
  /*************************
     Padding top
 *************************/
@@ -1891,8 +1900,8 @@ h3 { font-size: 22px; }
 .xx-pr-10 { padding-right: 10px !important; }
 .xx-pr-15 { padding-right: 15px !important; }
 .xx-pr-20 { padding-right: 20px !important; }
-.xx-pr-30 { padding-right: 30px !important; } 
-.xx-pr-40 { padding-right: 40px !important; } 
+.xx-pr-30 { padding-right: 30px !important; }
+.xx-pr-40 { padding-right: 40px !important; }
  /*************************
     Padding bottom
 *************************/
@@ -1916,7 +1925,7 @@ h3 { font-size: 22px; }
 h2 {font-size: 22px; line-height: 30px;}
 .topbar .topbar-call.text-left li { margin-bottom: 5px; }
 .clients-logo.line img { width: initial; }
-.shpping-cart .cart { width: 240px; } 
+.shpping-cart .cart { width: 240px; }
 .cart-item .cart-name a { font-size: 12px; }
 .cart-price del { font-size: 12px; }
 .cart-price ins { font-size: 14px; }
@@ -2007,11 +2016,11 @@ h2 {font-size: 22px; line-height: 30px;}
 /*one page*/
 .typer-banner h1 { font-size: 30px; line-height: 30px; }
 .popup-video-banner h1 { font-size: 30px; line-height: 40px; }
-.video-background-banner h1 { font-size: 30px; line-height: 30px; } 
+.video-background-banner h1 { font-size: 30px; line-height: 30px; }
 .video-background-banner .slider-content { padding: 30px 15px; }
 /*side panel*/
 .slide-footer .social ul li a { padding-right: 15px; }
-.st-menu { width: 280px; } 
+.st-menu { width: 280px; }
 .st-effect-2.st-menu-open .st-pusher { -webkit-transform: translate3d(280px, 0, 0);  transform: translate3d(280px, 0, 0); }
 .st-effect-3.st-menu-open .st-pusher { -webkit-transform: translate3d(280px, 0, 0);  transform: translate3d(280px, 0, 0); }
 .st-effect-4.st-menu-open .st-pusher { -webkit-transform: translate3d(280px, 0, 0); transform: translate3d(280px, 0, 0); }
@@ -2027,7 +2036,7 @@ h2 {font-size: 22px; line-height: 30px;}
 /* Fallback example for browsers that don't support 3D transforms (and no JS fallback) */
 .no-csstransforms3d .st-pusher,
 .no-js .st-pusher { padding-left: 280px; }
-.personal-typer-banner h1 { font-size: 30px; line-height: 30px; margin-bottom: 0px; } 
+.personal-typer-banner h1 { font-size: 30px; line-height: 30px; margin-bottom: 0px; }
 .personal-typer-banner h1 span { font-size: 20px; left: -10px; top: 0; }
 .image-content { width: 100%; margin-right: 0; }
 .testimonial.bottom_pos { padding: 60px 20px 40px 46px; }
@@ -2089,7 +2098,7 @@ h2 {font-size: 22px; line-height: 30px;}
 /*************************************
              v1.0.7
 **************************************/
-.portfolio-parallax-banner h2 { font-size: 30px; line-height: 30px; } 
+.portfolio-parallax-banner h2 { font-size: 30px; line-height: 30px; }
 
 /*************************************
              v1.0.9
@@ -2102,7 +2111,7 @@ h2 {font-size: 22px; line-height: 30px;}
 .error-03 .content p { font-size: 22px; }
 .error-03 .error-404 h1 { font-size: 70px; line-height: 70px; }
 .error-03 .error-404 h2 { font-size: 50px; line-height: 50px; }
-.error-04 h1, .error-06 h1, .error-07 h1 { font-size: 100px; line-height: 100px; } 
+.error-04 h1, .error-06 h1, .error-07 h1 { font-size: 100px; line-height: 100px; }
 .error-04 h2 { font-size: 40px; line-height: 40px; }
 .error-04 p { font-size: 18px; }
 .error-06 h2 .error-07 h2, .error-09 h2 { font-size: 30px; line-height: 30px; }
@@ -2195,8 +2204,8 @@ h2 {font-size: 22px; line-height: 30px;}
 .spa-meet .team .team-description .team-info h3 { font-size: 28px; }
 .spa-promotion .promo h2 { font-size: 16px; line-height: 20px; }
 .feature-step { padding:130px 30px; }
-.tattoo-banner h1 { font-size: 34px; line-height: 50px; }  
-.jobs-banner .button { display: none; } 
+.tattoo-banner h1 { font-size: 34px; line-height: 50px; }
+.jobs-banner .button { display: none; }
 
 /*************************************
              v3.6
@@ -2229,4 +2238,3 @@ h2 {font-size: 22px; line-height: 30px;}
 }
 
 
- 

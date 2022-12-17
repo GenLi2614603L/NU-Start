@@ -81,7 +81,7 @@
         </div>
 
         <div class="mt-50 p-tag">
-            <p><span style="font-size:30px;font-weight:bolder;">This</span> programme has been developed to provide learners with a range of knowledge, understanding Creative Media Production ; you’ll learn about the roles of a director, cinematographer, editor, history and science of still cameras, types of light, types of grips and gears, camera angles and everything that makes one a great cinematographer. This course consists of topics on cinematography basics, editing basics, Non-motion photography, Video fundamentals (SD & HD), Understanding Mise-en-scene, Motion photography on film cameras, Theory of colour, Understanding music videos and non-fiction films.This programme has been developed to provide learners with a range of knowledge, understanding Creative Media Production ; you’ll learn about the roles of a director, cinematographer, editor, history and science of still cameras, types of light, types of grips and gears, camera angles and everything that makes one a great cinematographer. This course consists of topics on cinematography basics, editing basics, Non-motion photography, Video fundamentals (SD & HD), Understanding Mise-en-scene, Motion photography on film cameras, Theory of colour, Understanding music videos and non-fiction films.</p>
+            <p>This programme has been developed to provide learners with a range of knowledge, understanding Creative Media Production ; you’ll learn about the roles of a director, cinematographer, editor, history and science of still cameras, types of light, types of grips and gears, camera angles and everything that makes one a great cinematographer. This course consists of topics on cinematography basics, editing basics, Non-motion photography, Video fundamentals (SD & HD), Understanding Mise-en-scene, Motion photography on film cameras, Theory of colour, Understanding music videos and non-fiction films.This programme has been developed to provide learners with a range of knowledge, understanding Creative Media Production ; you’ll learn about the roles of a director, cinematographer, editor, history and science of still cameras, types of light, types of grips and gears, camera angles and everything that makes one a great cinematographer. This course consists of topics on cinematography basics, editing basics, Non-motion photography, Video fundamentals (SD & HD), Understanding Mise-en-scene, Motion photography on film cameras, Theory of colour, Understanding music videos and non-fiction films.</p>
 
             <h3>Structure</h3>
     			<ul class="list list-unstyled mb-30">
@@ -110,7 +110,7 @@
                             </a>
                         </div>
                     </div>
-                    <img src="images/film-flyer.png" class="img-fluid full-width" style="margin-top: 15px" >
+                    <img src="images/Creation-media-production.JPG" class="img-fluid full-width" style="margin-top: 15px" >
                     @include('layouts.service')
                 </div>
             </div>

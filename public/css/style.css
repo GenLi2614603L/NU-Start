@@ -95,7 +95,7 @@ body{
 .topbar ul li a:hover { color: #0a6292;}
 
 /*menu*/
-.menu-bar { float: right; }
+.menu-bar { float: right;margin-top:1% }
 .mega-menu .menu-links { float: left; }
 .search-cart { display: inline-block;   }
 .search-cart i.icon { color: #ffffff; line-height: 20px; font-size: 14px; transition: 0.5s ease-in-out; -webkit-transition: 0.5s ease-in-out; -moz-transition: 0.5s ease-in-out; -o-transition: 0.5s ease-in-out; }
@@ -146,7 +146,9 @@ body{
 
 /*mega-menu */
 .mega-menu .menu-logo { padding: 25px 0 25px; }
-.mega-menu .menu-logo img { height: 60px; }
+.mega-menu .menu-logo img {
+    height: 60px;
+}
 .mega-menu .drop-down-multilevel.right-menu { right: 0px;  }
 .mega-menu > section.menu-list-items { padding: 0; }
 .mega-menu .menu-links > li > a { text-transform: none; font-size: 15px; font-weight: 700; line-height: 20px; }
@@ -1850,7 +1852,9 @@ img#logo-footer{ height: 40px; width: auto; }
 
 /*blog 02*/
 .header.light.line-header { border-bottom: 0; box-shadow: none; }
-.mega-menu .menu-logo img.logo-big { height: 60px; }
+.mega-menu .menu-logo img.logo-big {
+    height: 60px;
+}
 .header.light.line-header .mega-menu .menu-logo > li { line-height: 0; }
 .header.line-header .mega-menu > section.menu-list-items .menu-bar { border-top: 5px double rgba(0, 0, 0, 0.1); border-bottom: 5px double rgba(0, 0, 0, 0.1); float: left; width: 100%; }
 .header.line-header .mega-menu.desktopTopFixed > section.menu-list-items .menu-bar { float: right; width: auto; border:0; }
@@ -2238,6 +2242,7 @@ img.bottom-img { top: 0; }
     margin-left: 18px;
 }
 
+
 .slider-border{
   position: absolute;
   padding: 30px;
@@ -2262,8 +2267,8 @@ img.bottom-img { top: 0; }
 /* mobile */
 @media (max-width:767px){
   .hidden-xs{display:none!important}
-  .slider-border{padding: 5%;width: 200px; top:50% !important;}
-  .slider-border h1{font-size:130%;text-align: center}
+  .slider-border{padding: 3%;width: 200px; top:50% !important;}
+  .slider-border h1{font-size:100%;text-align: center}
   /*.slider-border .text-white{font-size: 10px !important;}*/
     .slider-border p{display:none}
 }
@@ -2358,3 +2363,17 @@ img.bottom-img { top: 0; }
 .openBtn:hover{
     text-decoration:underline;
 }
+
+@media (max-width:300px) {
+    #logo_img {
+        display: none;
+    }
+}
+@media (max-width:768px) {
+    .mega-menu .menu-logo img {
+        height: 40px;
+    }
+}
+
+
+

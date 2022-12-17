@@ -3,6 +3,13 @@
 @section('page-content')
 <!--=================================
    banner -->
+<style>
+    @media (max-width:750px){
+        .image-font-size{
+            font-size:5px;
+        }
+    }
+</style>
 <section class="rev-slider">
    <div id="rev_slider_271_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="webster-slider-5" data-source="gallery" style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
       <!-- START REVOLUTION SLIDER 5.4.6.3 auto mode -->
@@ -15,7 +22,7 @@
                <img src="revolution/sliders-img/Promoting-Education.jpeg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg img-responsive" data-no-retina>
 
                <div class="col-sm-6 slider-border" style="background-color: rgb(10 98 146 / 49%);top: 30%;left: 12%;">
-                  <h1 class="text-white bold">Promoting Education</h1>
+                  <h1 class="image-font-size text-white bold">Promoting Education</h1>
                   <p class="text-white" style="font-size:16px;">The future belongs to young people with an education and the imagination to create it.</p>
                </div>
 
@@ -26,7 +33,7 @@
                <!-- MAIN IMAGE -->
                <img src="revolution/sliders-img/supporting-the-media-industry.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                <div class="col-sm-6 slider-border" style="background-color: rgb(246 135 27 / 61%);top: 30%;right: 6%;">
-                  <h1 class="text-white bold">Supporting the Media Industry</h1>
+                  <h1 class="image-font-size text-white bold">Supporting the Media Industry</h1>
                   <p class="text-white" style="font-size:16px;">The future belongs to young people with an education and the imagination to create it.</p>
                </div>
             </li>
@@ -37,7 +44,7 @@
                <img src="revolution/sliders-img/Supporting-the Contruction-Industry.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
 
                <div class="col-sm-6 slider-border" style="background-color: rgb(246 135 27 / 61%);top: 30%;right: 6%;">
-                  <h1 class="text-white bold">Supporting the Construction Industry </h1>
+                  <h1 class="image-font-size text-white bold">Supporting the Construction Industry </h1>
                   <p class="text-white" style="font-size:16px;">The future belongs to young people with an education and the imagination to create it.</p>
                </div>
 
@@ -51,7 +58,7 @@
                <img src="revolution/sliders-img/creating-positive.jpeg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
 
                <div class="col-sm-6 slider-border" style="background-color: rgb(10 98 146 / 49%);top: 30%;left: 12%;">
-                  <h1 class="text-white bold">Creating a Positive Future </h1>
+                  <h1 class="image-font-size text-white bold">Creating a Positive Future </h1>
                   <p class="text-white" style="font-size:16px;">The future belongs to young people with an education and the imagination to create it.</p>
                </div>
 
@@ -143,13 +150,13 @@
     </div>
   </div>
 </section>-->
-<section class="white-bg page-section-ptb white-bg" style="padding: 80px 0px 10px 0px;">
+<section class="white-bg page-section-ptb white-bg" style="padding: 20px 0px 10px 0px;">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12">
         <div class="section-title">
-            <h2 class="text-white title-effect">Welcome to Nu Start</h2>
-            <p class="text-orange" style="font-weight:bold;">FED UP? <br>WANT A NEW START? <br>NEED A NEW SKILL?<br> TURN TO NU START!</p>
+{{--            <h2 class="text-white title-effect">Welcome to Nu Start</h2>--}}
+            <p class="text-orange" style="font-weight:bold;margin-top: 1%">FED UP? <br>WANT A NEW START? <br>NEED A NEW SKILL?<br> TURN TO NU START!</p>
           </div>
 
          <div class="row mt-30 text-white">
@@ -168,15 +175,15 @@
               </ul>
             </div>
            </div>
-           <p class="text-white">
-               Nu Start Community Enterprise supports, encourages and empowers young people and their community to reach and fulfil their potential by tapping into resources that will allow young people to achieve, both economically, physically and educationally.
-               </p>
+{{--           <p class="text-white">--}}
+{{--               Nu Start Community Enterprise supports, encourages and empowers young people and their community to reach and fulfil their potential by tapping into resources that will allow young people to achieve, both economically, physically and educationally.--}}
+{{--               </p>--}}
       </div>
      <div class="col-lg-6 col-md-6 col-sm-12">
         <!--<img class="img-fluid mx-auto" src="https://images.squarespace-cdn.com/content/v1/57857edc6b8f5b322def8048/1599080421657-TCE3RAQP9LR040IVU6PI/Happy+Employees.jpg" alt="">-->
         <div class="row justify-content-center mt-10">
            <div class="col-md-9 col-sm-9">
-              <h2 class="mb-40 text-orange text-center">Join Our Mailling List</h2>
+              <h2 class="mb-40 text-orange text-center" style="margin-top: 4%">Join Our Mailling List</h2>
               <div class="login-2-form pb-50 clearfix">
                     @if(session()->has('success'))
                         <div class="alert alert-success alert-dismissible fade show" role="alert">

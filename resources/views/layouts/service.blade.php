@@ -13,10 +13,12 @@ read more -->
         display:flex;
         position: relative;
     }
+
     #listimg{
         display:block;
         list-style: none;
-        height:100%;
+        /*height:100%;*/
+        wodth:100%;
         padding-right:20px
     }
     li img{
@@ -24,6 +26,15 @@ read more -->
         height: 240px;
         object-fit:cover;
         object-position: center;
+    }
+
+    @media (max-width:600px){
+        li img{
+            width: 260px;
+            height: 140px;
+            object-fit:cover;
+            object-position: center;
+        }
     }
 </style>
 <section class="page-section-ptb">
