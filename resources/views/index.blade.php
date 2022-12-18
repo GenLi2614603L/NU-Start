@@ -6,7 +6,7 @@
 <style>
     @media (max-width:750px){
         .image-font-size{
-            font-size:5px;
+            font-size:10px;
         }
     }
 </style>
@@ -23,7 +23,7 @@
 
                <div class="col-sm-6 slider-border" style="background-color: rgb(10 98 146 / 49%);top: 30%;left: 12%;">
                   <h1 class="image-font-size text-white bold">Promoting Education</h1>
-                  <p class="text-white" style="font-size:16px;">The future belongs to young people with an education and the imagination to create it.</p>
+                  <p class="slogans text-white">The future belongs to young people with an education and the imagination to create it.</p>
                </div>
 
             </li>
@@ -34,7 +34,7 @@
                <img src="revolution/sliders-img/supporting-the-media-industry.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                <div class="col-sm-6 slider-border" style="background-color: rgb(246 135 27 / 61%);top: 30%;right: 6%;">
                   <h1 class="image-font-size text-white bold">Supporting the Media Industry</h1>
-                  <p class="text-white" style="font-size:16px;">The future belongs to young people with an education and the imagination to create it.</p>
+                  <p class="slogans text-white">The future belongs to young people with an education and the imagination to create it.</p>
                </div>
             </li>
             <!-- SLIDE 2  -->
@@ -45,7 +45,7 @@
 
                <div class="col-sm-6 slider-border" style="background-color: rgb(246 135 27 / 61%);top: 30%;right: 6%;">
                   <h1 class="image-font-size text-white bold">Supporting the Construction Industry </h1>
-                  <p class="text-white" style="font-size:16px;">The future belongs to young people with an education and the imagination to create it.</p>
+                  <p class="slogans text-white">The future belongs to young people with an education and the imagination to create it.</p>
                </div>
 
 
@@ -59,7 +59,7 @@
 
                <div class="col-sm-6 slider-border" style="background-color: rgb(10 98 146 / 49%);top: 30%;left: 12%;">
                   <h1 class="image-font-size text-white bold">Creating a Positive Future </h1>
-                  <p class="text-white" style="font-size:16px;">The future belongs to young people with an education and the imagination to create it.</p>
+                  <p class="slogans text-white">The future belongs to young people with an education and the imagination to create it.</p>
                </div>
 
             </li>

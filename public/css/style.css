@@ -2264,13 +2264,24 @@ img.bottom-img { top: 0; }
     border: 2px solid #036295;
     margin-left: 10px;
 }
+
+.slogans{
+    font-size:1rem;
+}
 /* mobile */
 @media (max-width:767px){
   .hidden-xs{display:none!important}
-  .slider-border{padding: 3%;width: 200px; top:50% !important;}
-  .slider-border h1{font-size:100%;text-align: center}
+  .slider-border{padding: 2%;width:220px; top:50% !important;text-align:left }
+  .slider-border h1{font-size:100%;
+      /*text-align: center;*/
+      line-height:20px;
+      margin:0;}
   /*.slider-border .text-white{font-size: 10px !important;}*/
-    .slider-border p{display:none}
+  /*  .slider-border p{display:none}*/
+    .slogans{
+        font-size:11px;
+       margin:0;
+    }
 }
 
 @media (max-width:350px){
