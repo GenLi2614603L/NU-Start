@@ -43,7 +43,7 @@
         <li><i class="fa fa-check"></i> Develop teamwork skills </li>
         </ul>
       </p>
-		<div class="row page-section-ptb">
+		<div class="row page-section-ptb" style="margin:0">
 			<div class="col-lg-12 col-md-12" style="padding:1%">
 				<div class="action-box theme-bg">
 					<div class="action-box-text">
