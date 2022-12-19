@@ -97,7 +97,7 @@
     			<br><b>GLH</b> 40
     			<br><b>Credit Value</b> 4</p>
 
-            <div class="row page-section-ptb">
+            <div class="row page-section-ptb" style="margin:0">
                 <div class="col-lg-12 col-md-12" style="padding:1%">
                     <div class="action-box theme-bg">
                         <div class="action-box-text">

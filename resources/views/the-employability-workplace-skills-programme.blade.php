@@ -121,7 +121,7 @@
                         <br><b>Credit Value</b> 4
                         <br><b>Timescale</b> 60 classes, 4 hour classes</p>
             </p>
-            <div class="row page-section-ptb">
+            <div class="row page-section-ptb"style="margin:0">
                 <div class="col-lg-12 col-md-12" style="padding:1%">
                     <div class="action-box theme-bg">
                         <div class="action-box-text">
