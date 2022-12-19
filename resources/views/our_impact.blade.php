@@ -7,8 +7,8 @@
         <div class="col-md-12 col-lg-12 p-tag">
             <h1 class="mb-30">Our Impact</h1>
             <p>We have supported thousands of young people to take part in opportunities that enabled them to gain the skills and experiences to help them succeed.</p>
-            <p>Developing and replicating, successful, innovative, initiatives, to engage young people and delivering to a high level, by trained industry professionals, is paramount to us. We want our organisation and its associated initiatives to make a difference, with as wide an impact as possible.</p>
-            <p>All across the UK, young people want to progress; to have fun and learn; to be healthy; to be creative; to make positive change; and to shape the kind of city they want for the future.</p>
+            <p>Developing and replicating successful, innovative initiatives to engage young people and delivering to a high level, by trained industry professionals, is paramount to us. We want our organisation and its associated initiatives to make a difference, with as wide an impact as possible.</p>
+            <p>All across the UK, young people want to progress; have fun and learn; be healthy; be creative; make positive changes; and shape the kind of city they want for the future.</p>
             <h3 class="mb-30 text-orange">We want all young Londoners to:</h3>
 
 
@@ -19,8 +19,8 @@
                  </ul>
 
             <p>As we face unprecedented turmoil from a pandemic, we remain committed to proactively removing the social and economic barriers that negatively impact communities across the country.</p>
-            <p>Through our initiatives, young people also develop their social and emotional capabilities critical for wellbeing, and personal development. Over 70% of young people improved their social and emotional capabilities and life skills during our weekly activities.</p>
-            <p>All our initiatives are underpinned with a strong focus on education and supporting young people to develop the skills that they need to succeed in their future careers, providing opportunities for the next generation of leaders.</p>
+            <p>Through our initiatives, young people also develop their social and emotional capabilities critical for well-being, and personal development. Over 70% of young people improved their social and emotional capabilities and life skills during our weekly activities.</p>
+            <p>All our initiatives are underpinned by a strong focus on education and supporting young people to develop skills needed to succeed in their future careers, providing opportunities for the next generation of leaders.</p>
             <p>Our expertise is to tie in a number of multi-faceted interventions, which work seamlessly together by combining media engagement activities with social learning courses alongside nationally accredited qualifications and added support by delivering counselling and 1-2-1 sessions.</p>
         </div>
     </div>
