@@ -5,6 +5,11 @@
         #edit-link:hover{
             text-decoration: underline;
         }
+
+        .member-link{
+            padding: 10px 20px;
+            font-size: 14px;
+        }
     </style>
 
 <!--=================================member=======-->
@@ -35,9 +40,11 @@
 			<p>Applications are open for our current membership year which runs from 1 April 2022 to 31 March 2023.</p>
             <div>
                 @if(auth()->check())
-                    <a href="/member"><h4 id="edit-link" style="color:royalblue;">Become a member</h4></a>
+{{--                    <a href="/member"><h4 id="edit-link" style="font-size:18px;color: rgb(0, 86, 210);font-weight: bolder;margin-top:0px;">Become a member</h4></a>--}}
+                    <a class="button member-link" href="/member">Register<i class="fa fa-angle-right" aria-hidden="true" style="margin-left:2px"></i></a>
                 @else
-                    <a href="/register"><h4 id="edit-link" style="color:royalblue;">Become a member</h4></a>
+{{--                    <a href="/register"><h4 id="edit-link" style="font-size:18px;color: rgb(0, 86, 210);font-weight: bolder;margin-top:0px;">Become a member</h4></a>--}}
+                    <a class="button member-link" href="/register">Register<i class="fa fa-angle-right" aria-hidden="true" style="margin-left:2px"></i></a>
                 @endif
             </div>
 			<!--<div class="row">
