@@ -41,7 +41,7 @@
                <div class="container">
                   <div class="row" style="float:right;">
                       @guest
-                          <a class="button x-small head-buton-blue" href="{{ url('/register') }}">Sign in</a>
+                          <a class="button x-small head-buton-blue" href="{{ url('/become-a-member') }}">Become a member</a>
                       @endguest
                       @if(auth()->check())
                           <a class="button x-small head-buton-blue" href="{{ route('become-a-member') }}">Become a member</a>
@@ -145,6 +145,9 @@
                                                  <a href="/logout">Log out</a>
                                              </li>
                                          @else
+                                             <li>
+                                                 <a href="/register">Sign in</a>
+                                             </li>
                                              <li>
                                                  <a href="/register">My account</a>
                                              </li>

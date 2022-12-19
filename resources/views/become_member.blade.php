@@ -34,7 +34,11 @@
 			<h3 class="mb-30 text-orange">How do I join?</h3>
 			<p>Applications are open for our current membership year which runs from 1 April 2022 to 31 March 2023.</p>
             <div>
-                <a href="/member"><h4 id="edit-link" style="color:royalblue;">Become a member</h4></a>
+                @if(auth()->check())
+                    <a href="/member"><h4 id="edit-link" style="color:royalblue;">Become a member</h4></a>
+                @else
+                    <a href="/register"><h4 id="edit-link" style="color:royalblue;">Become a member</h4></a>
+                @endif
             </div>
 			<!--<div class="row">
                 <div class="col-lg-4 col-md-4 text-center mb-30 membership-box">
