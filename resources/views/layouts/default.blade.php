@@ -136,7 +136,7 @@
                                                  <a href="/personal">Complete infos</a>
                                              </li>
                                              <li>
-                                                 <a href="/member">Member</a>
+                                                 <a href="/become-a-member">Member</a>
                                              </li>
                                              <li>
                                                  <a href="/edit">My details</a>
@@ -155,7 +155,7 @@
                                                  <a href="/register">Complete infos</a>
                                              </li>
                                              <li>
-                                                 <a href="/register">Member</a>
+                                                 <a href="/become-a-member">Member</a>
                                              </li>
                                              <li>
                                                  <a href="/register">My details</a>
