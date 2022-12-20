@@ -1215,7 +1215,7 @@ header.one-page.light .navbar-inverse .navbar-collapse, header.one-page.light .n
 .xs-pl-30 { padding-left: 30px !important; }
 .xs-pl-40 { padding-left: 40px !important; }
 h1 { font-size: 30px; }
-h2 { font-size: 20px; }
+h2 { font-size: 25px; }
 .page-section-ptb { padding: 50px 0; }
 .page-section-pt { padding: 50px 0 0; }
 .page-section-pb { padding: 0 0 50px; }
@@ -1922,7 +1922,7 @@ h3 { font-size: 22px; }
 .xx-pl-40 { padding-left: 40px !important; }
 .col-xx-12{width:100% !important;}
 .col-xx-6{width:50% !important;}
-h2 {font-size: 16px; line-height: 30px;}
+h2 {font-size: 22px; line-height: 30px;}
 .topbar .topbar-call.text-left li { margin-bottom: 5px; }
 .clients-logo.line img { width: initial; }
 .shpping-cart .cart { width: 240px; }

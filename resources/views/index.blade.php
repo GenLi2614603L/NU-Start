@@ -229,19 +229,19 @@
             <div class="col-md-4">
                 <img class="img-fluid full-width" src="{{ asset('images/home/1-when-I-grow-up-I-want-to-be-Prime-Minister.jpg') }}" style="position: relative;">
                 <div class="home-bar" style="background-color: rgb(10 98 146 / 49%);">
-                    <h2 class="text-white text-center">When I grow up I want to be Prime Minister </h2>
+                    <h2 class="image-bottom text-white text-center">When I grow up I want to be Prime Minister </h2>
                 </div>
             </div>
             <div class="col-md-4">
                 <img class="img-fluid full-width" src="{{ asset('images/home/2-When-I-grow-up-I-want-to-be-Doctor.jpg') }}" style="position: relative;">
                 <div class="home-bar" style="background-color: rgb(246 135 27 / 61%);">
-                    <h2 class="text-white text-center">When I grow up I want to be a Doctor</h2>
+                    <h2 class="image-bottom text-white text-center">When I grow up I want to be a Doctor</h2>
                 </div>
             </div>
             <div class="col-md-4">
                 <img class="img-fluid full-width" src="{{ asset('images/home/3-when-I-grow-up-I-want-to-be-Lawyer.jpg') }}" style="position: relative;">
                 <div class="home-bar" style="background-color: rgb(10 98 146 / 49%);">
-                    <h2 class="text-white text-center">When I grow up I want to be a Lawyer</h2>
+                    <h2 class="image-bottom text-white text-center">When I grow up I want to be a Lawyer</h2>
                 </div>
             </div>
         </div>

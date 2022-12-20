@@ -2387,5 +2387,9 @@ img.bottom-img { top: 0; }
     }
 }
 
-
-
+@media (max-width: 479px){
+    .image-bottom{
+        font-size: 16px;
+        line-height: 30px
+    }
+}

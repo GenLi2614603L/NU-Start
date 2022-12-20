@@ -15,8 +15,8 @@ mission  -->
          <div class="col-lg-5 sm-mb-30">
            <div class="shop-split-content1 p-tag">
              <h1 class="mt-10">Mission Statement</h1>
-             <p>Nu Start Community Enterprise supports, encourages and empowers young people and their community, to reach and fulfil their potential by tapping into resources that will allow young people to achieve economically, physically and educationally.</p>
-             <p>In turn, our work in creating community projects, referring young people to work placements and educational-based courses and developing positive role models, will as a consequence, benefit their peers, family and their surrounding community, which will lead to a safer neighbourhood, higher attainment and a better environment to live in.</p>
+             <p>Nu Start Community Enterprise supports, encourages and empowers young people and their community to reach and fulfil their potential by tapping into resources that will allow them to achieve economically, physically and educationally.</p>
+             <p>In turn, our work in developing community-based projects and referring young people to work placements and educational courses will benefit their peers, family, and surrounding community, leading to safer neighbourhoods, higher attainment and a better environment.</p>
 
             </div>
            </div>
