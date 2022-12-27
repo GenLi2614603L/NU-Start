@@ -192,9 +192,15 @@
                <li><i class="fa fa-hand-o-right"></i> Workshops / Groups</li>
                <li><i class="fa fa-hand-o-right"></i>  OCN Accredited Training Courses</li>
            </ul>
-
-
-         </div>
+           <p style="font-size:15px;margin-bottom:0.5%">Expert counselling and tailored intervention packages to guide and support young people, utilising the best therapeutic approach to build mental health resilience. Our innovative approach uses multifaceted interventions,  combining talk therapy, creative resources and activities to help improve and sustain mental wellness.</p>
+           <li>Drug/Alcohol Addiction</li>
+           <li>Anxiety</li>
+           <li>Depression</li>
+           <li>Criminal issues</li>
+           <li>Family issues</li>
+           <li>Bereavement</li>
+           <li>Relationship therapy</li>
+       </div>
 
         </div>
 
