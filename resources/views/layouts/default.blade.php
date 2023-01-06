@@ -88,9 +88,9 @@
                                   </li>
                                   <li class="{{ request()->is('what-we-do') || request()->is('education') || request()->is('training-and-employment') || request()->is('enterprise') || request()->is('mental-health-and-wellbeing') ? 'active' : '' }}"><a href="{{ route('what-we-do') }}">What We Do <i class="fa fa-angle-down fa-indicator"></i></a>
                                     <ul class="drop-down-multilevel">
-                                      <li class="{{ request()->is('education') ? 'active' : '' }}"><a href="{{ route('education')}}">Education</a></li>
+                                      <li class="{{ request()->is('education') ? 'active' : '' }}"><a href="{{ route('education')}}">Promote Education</a></li>
                                       <li class="{{ request()->is('training-and-employment') ? 'active' : '' }}"><a href="{{ route('training-and-employment') }}">Training & Employment</a></li>
-                                      <li class="{{ request()->is('enterprise') ? 'active' : '' }}"><a href="{{ route('enterprise') }}">Enterprise</a></li>
+                                      <li class="{{ request()->is('enterprise') ? 'active' : '' }}"><a href="{{ route('enterprise') }}">Business & Enterprise</a></li>
                                       <li class="{{ request()->is('mental-health-and-wellbeing') ? 'active' : '' }}"><a href="{{ route('mental-health-and-wellbeing') }}">Mental health & Wellbeing</a></li>
                                     </ul>
                                   </li>
@@ -116,7 +116,7 @@
                                     </ul>
                                   </li>
                                   <!--<li class="{{ request()->is('/volunteer') ? 'active' : '' }}"><a href="#">Volunteer </a></li>-->
-                                  <li class="{{ request()->is('volunteer') || request()->is('support-our-work') || request()->is('corporate-partnerships') ? 'active' : '' }}"><a href="javascript:void(0)">Support Us <i class="fa fa-angle-down fa-indicator"></i></a>
+                                  <li><a href="/supports-us">Support Us<i class="fa fa-angle-down fa-indicator"></i></a>
                                     <ul class="drop-down-multilevel">
                                       <li class="{{ request()->is('volunteer') ? 'active' : '' }}"><a href="{{ route('volunteer') }}">Volunteer</a></li>
                                       <li class="{{ request()->is('support-our-work') ? 'active' : '' }}"><a href="{{ route('support-our-work') }}">Support our work</a></li>
@@ -523,7 +523,7 @@
         border: 2px #036295 solid;
         border-left: none;
         position: relative;
-        top: 1px;
+        top: 0.7px;
     }
 </style>
 <!--top search input-->

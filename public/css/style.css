@@ -2246,8 +2246,8 @@ img.bottom-img { top: 0; }
 .slider-border{
   position: absolute;
   padding: 30px;
-  max-width: 500px;
-  width: 500px;
+  max-width: 580px;
+  width: 580px;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -2349,7 +2349,7 @@ img.bottom-img { top: 0; }
 }
 
 .counselling-img{
-    width:17%;
+    width:20%;
     float:right;
     margin-right: 5%;
     z-index:1;
@@ -2366,10 +2366,10 @@ img.bottom-img { top: 0; }
 }
 
 .counselling-img:hover{
-    transform: scale(1.05);
-    /*transform: scale(2.0) rotate(-3deg);*/
-    /*transform-origin: bottom right;*/
-    /*z-index:2;*/
+    /*transform: scale(1.1);*/
+    transform: scale(2.0) rotate(-3deg);
+    transform-origin: bottom right;
+    z-index:2;
 }
 
 .openBtn:hover{

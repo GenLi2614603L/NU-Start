@@ -55,7 +55,7 @@
                    </ul>
                    <p class="counselling-link" style="font-size:18px;color: rgb(0, 86, 210);font-weight: bolder;margin:0px;";>Go to counselling</p>
                </div>
-               <img src="images/film-flyer.png" class="counselling-img">
+               <img src="images/conselling-eflyer.jpg" class="counselling-img">
            </div>
 
            <div class="counselling-table">

@@ -45,7 +45,7 @@ Route::get('/trade', function () { return view('trade');})->name('trade');
 Route::get('/our-impact', function () { return view('our_impact');})->name('our-impact');
 
 /*support-us*/
-Route::get('/supports-us', function () { return view('supports_us');})->name('supports-us');
+Route::get('/supports-us', function () { return view('supports-us');})->name('supports-us');
 Route::get('/volunteer', function () { return view('volunteer');})->name('volunteer');
 Route::get('/support-our-work', function () { return view('support-our-work');})->name('support-our-work');
 Route::get('/fundraise-for-us', function () { return view('fundraise-for-us');})->name('fundraise-for-us');
@@ -86,3 +86,4 @@ Route::get('/myaccount', [PersonalInfoController::class, 'account']);
 /*MemberInfo*/
 Route::get('/member', [MemberInfoController::class, 'index']);
 Route::post('/member', [MemberInfoController::class, 'store']);
+
