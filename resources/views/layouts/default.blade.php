@@ -86,7 +86,8 @@
                                       {{-- <li class="{{ request()->is('partnerships') ? 'active' : '' }}"><a href="{{route('partnerships')}}">Partnerships</a></li> --}}
                                     </ul>
                                   </li>
-                                  <li class="{{ request()->is('what-we-do') || request()->is('education') || request()->is('training-and-employment') || request()->is('enterprise') || request()->is('mental-health-and-wellbeing') ? 'active' : '' }}"><a href="{{ route('what-we-do') }}">What We Do <i class="fa fa-angle-down fa-indicator"></i></a>
+                                  <li><a href="/what-we-do">What we do test<i class="fa fa-angle-down fa-indicator"></i></a>
+{{--                                  <li class="{{ request()->is('what-we-do') || request()->is('education') || request()->is('training-and-employment') || request()->is('enterprise') || request()->is('mental-health-and-wellbeing') ? 'active' : '' }}"><a href="{{ route('what-we-do') }}">What We Do <i class="fa fa-angle-down fa-indicator"></i></a>--}}
                                     <ul class="drop-down-multilevel">
                                       <li class="{{ request()->is('education') ? 'active' : '' }}"><a href="{{ route('education')}}">Promote Education</a></li>
                                       <li class="{{ request()->is('training-and-employment') ? 'active' : '' }}"><a href="{{ route('training-and-employment') }}">Training & Employment</a></li>
