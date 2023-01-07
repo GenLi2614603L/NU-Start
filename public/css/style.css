@@ -2365,6 +2365,10 @@ img.bottom-img { top: 0; }
         height:100%;
     }
 
+    .counselling-img:hover{
+        display:none;
+    }
+
     .counselling-con{
         display:inline-block;
         width:100%;

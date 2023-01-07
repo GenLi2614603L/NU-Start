@@ -96,20 +96,20 @@
 
         @media (max-width:450px) {
             .wwd-title{;
-                font-size:1.1rem;
-                line-height:16px;
+                font-size:0.9rem;
+                line-height:12px;
             }
 
             .wwd-bg{
-                font-size:0.5rem;
+                font-size:0.45rem;
             }
 
             .find-btn{
-                font-size:0.9rem;
+                font-size:0.7rem;
             }
         }
 
-        @media (max-width:400px) {
+        @media (max-width:350px) {
             .wwd-title{;
                 font-size:1.1rem;
 
