@@ -44,19 +44,32 @@
                <img src="revolution/sliders-img/Supporting-the Contruction-Industry.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
 
                <div class="col-sm-6 slider-border" style="background-color: rgb(246 135 27 / 61%);top: 30%;right: 6%;">
-                  <h1 class="image-font-size text-white bold">Business & Enterprise</h1>
+                  <h1 class="image-font-size text-white bold">Learn a Trade</h1>
                   <p class="slogans text-white">The future belongs to young people with an education and the imagination to create it.</p>
                </div>
 
 
             </li>
+
             <!-- SLIDE 4  -->
+             <li data-index="rs-765" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="revolution/sliders-img/Supporting-the Contruction-Industry.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                 <!-- MAIN IMAGE -->
+                 <img src="revolution/sliders-img/Business.jpeg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+
+                 <div class="col-sm-6 slider-border" style="background-color: rgb(246 135 27 / 61%);top: 30%;right: 6%;">
+                     <h1 class="image-font-size text-white bold">Business and Enterprise</h1>
+                     <p class="slogans text-white">The future belongs to young people with an education and the imagination to create it.</p>
+                 </div>
+
+
+             </li>
+
              <li data-index="rs-764" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="revolution/sliders-img/creating-positive.jpeg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                  <!-- MAIN IMAGE -->
-                 <img src="revolution/sliders-img/teenagers-group-counselling-session.jpeg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                 <img src="revolution/sliders-img/e-learning.jpeg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
 
                  <div class="col-sm-6 slider-border" style="background-color: rgb(10 98 146 / 49%);top: 30%;left: 12%;">
-                     <h1 class="image-font-size text-white bold">Mental Health & Wellbeing</h1>
+                     <h1 class="image-font-size text-white bold">e-Learning</h1>
                      <p class="slogans text-white">The future belongs to young people with an education and the imagination to create it.</p>
                  </div>
 

@@ -37,9 +37,9 @@
          <!--=================================
             header -->
          <header id="header" class="header light fullWidth">
-            <div class="head-top hidden-xs">
+            <div class="head-top">
                <div class="container">
-                  <div class="row" style="float:right;">
+                  <div class="row ht-btn" style="float:right;">
                       @guest
                           <a class="button x-small head-buton-blue" href="{{ url('/become-a-member') }}">Become a member</a>
                       @endguest
@@ -48,7 +48,7 @@
                       @endif
                      <a class="button x-small head-buton-orange" href="{{ route('donate') }}">Donate</a>
                      <!--<input type="text" class="head-search" placeholder="Search"> -->
-                      <form class="top-search" action="#" style="line-height:100%;margin:auto;max-width:300px;margin-left:17px;">
+                      <form class="top-search hidden-xs" action="#" style="line-height:100%;margin:auto;max-width:300px;margin-left:17px;">
                           <button type="submit" ><i class="fa fa-search" style="vertical-align: middle"></i></button>
                           <input type="text" style="line-height:100%" placeholder="Search" name="search">
                       </form>
@@ -147,7 +147,7 @@
                                              </li>
                                          @else
                                              <li>
-                                                 <a href="/register">Sign in</a>
+                                                 <a href="/register">Sign up</a>
                                              </li>
                                              <li>
                                                  <a href="/register">My account</a>

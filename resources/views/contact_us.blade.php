@@ -11,7 +11,8 @@
            <div class="row">
                <div class="col-lg-6 map-side g-map1 map-right" id="map1" data-type='black'>
                    <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.261040773131!2d-0.3026412847972646!3d51.56344791442546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487613ceb4f74c7f%3A0xb35bd8201056b8c9!2sCourtenay%20Rd%2C%20East%20Ln%2C%20Wembley%20HA9%207ND%2C%20UK!5e0!3m2!1sen!2sin!4v1649083770310!5m2!1sen!2sin" width="690" height="630" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
-                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.007126852463!2d-0.30080248467162135!3d51.53142911676773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761216e869753f%3A0x80f82c4a338cb85!2sWest%20World!5e0!3m2!1sen!2suk!4v1655229159378!5m2!1sen!2suk" width="690" height="440" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+{{--                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.007126852463!2d-0.30080248467162135!3d51.53142911676773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761216e869753f%3A0x80f82c4a338cb85!2sWest%20World!5e0!3m2!1sen!2suk!4v1655229159378!5m2!1sen!2suk" width="690" height="440" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>--}}
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.3934448161235!2d-0.3154300841190825!3d51.48764707963189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760dbb8d38d887%3A0xec493385f1a6e75e!2sGreat%20West%20House%2C%20Great%20West%20Rd%2C%20Brentford!5e0!3m2!1sen!2suk!4v1673059611151!5m2!1sen!2suk" width="600" height="440" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                </div>
            </div>
        </div>
@@ -24,7 +25,7 @@
             <p class="mb-50 text-white">Nu Start Community Enterprise supports, encourages and empowers young people and their community to reach and fulfil their potential by tapping into resources that will allow young people to achieve, both economically, physically and educationally.</p>
 
             <ul class="addresss-info list-unstyled">
-             <li><i class="ti-map-alt"></i> <p>West World, West Gate, London, W5 1DT</p> </li>
+             <li><i class="ti-map-alt"></i> <p>Great West House. 993 Great West Road TW8 9DF Brentford</p> </li>
              <!--<li><i class="ti-mobile"></i>Phone: 08703832151</li>-->
              <li><i class="ti-email"></i> info@nustart.org</li>
              <!--<li><i class="fa fa-skype"></i>Skype. nustart.org</li>-->

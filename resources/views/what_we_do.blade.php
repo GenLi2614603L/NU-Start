@@ -3,8 +3,9 @@
 @section('page-content')
     <style>
         .wwd-box{
-            border:1px;
-            /*background-color: whitesmoke;*/
+            width:96%;
+            margin-left:2%;
+            margin-right: 2%;
         }
         .wwd-content{
             position:absolute;
@@ -12,19 +13,48 @@
             width:100%;
         }
 
-        .wwd-content li{
-            /*color:#F6871B;*/
-            color:white;
+        .wwd-info{
+            position:absolute;
+            background-color: rgb(5 23 26 / 49%);
+            width:45%;
+            height:100%;
+            padding:1%;
+            border-radius: 20px;
             font-family: "poppins",sans-serif;
             font-size:1.2rem;
-            /*text-decoration: underline;*/
-            margin-top:1%;
+        }
 
+        .wwd-list-box{
+            height:60%;
+            margin-left:3%;
+            margin-right:3%;
+        }
+        .wwd-bg{
+            font-size:1.2rem;
+            color:white;
+        }
+        .wwd-title{
+            color:#F6871B;
+            margin-left:5%;
+            font-size:2.5rem;
+            height:20%;
+            margin-top:8%;
+            margin-bottom: 0px;
+        }
+
+
+        .find-btn{
+            height:20%;
+            font-size:1.8rem;
+            color:#F6871B;
+            font-weight: bolder;
+            margin-left:5%;
+            margin-bottom:0px;
         }
 
         .wwd-img{
             width:100%;
-            padding:1%;
+            /*padding:1%;*/
             position:relative;
             opacity: 0.95;
             border-radius: 20px;
@@ -32,187 +62,72 @@
 
         .find-btn:hover{
             text-decoration: underline;
-            /*text-decoration-color: white;*/
         }
 
-        .wwd-title{
-            margin-top:10%;
-            color:#F6871B;
-            /*color:white;*/
-            margin-left:12%;
-            font-size:2.5rem;
-        }
-
-        .wwd-list-1{
-            margin-top:6%;
-            margin-left:5%;
-        }
-
-        .wwd-list-2{
-            margin-top:6%;
-            margin-left:5%;
-        }
-
-        .wwd-list-3{
-            margin-top:11%;
-            margin-left:25%;
-        }
-
-        .wwd-list-4{
-            margin-top:8%;
-            margin-left:5%;
-        }
-
-        .wwd-bg{
-            padding:10px;
-            margin-right:35%;
-            background-color: rgb(10 98 146 / 49%);
-        }
-        .wwd-bg2{
-            padding:10px;
-            margin-right:30%;
-            background-color: rgb(129 95 33 / 49%);
-        }
-        .wwd-bg3{
-            padding:10px;
-            margin-right:5%;
-            background-color: rgb(129 95 33 / 49%);
-        }
-        .wwd-bg4{
-            padding:10px;
-            margin-right:60%;
-            background-color: rgb(10 98 146 / 49%);
-        }
-
-        @media (max-width:1000px){
-            .find-btn{
-                display:none
-            }
-
-            .wwd-title {
-                font-size:2rem;
-            }
-
-            .wwd-content li{
-                font-size:1rem;
-            }
-
-            .wwd-list-3{
-                margin-top:11%;
-                margin-left:6%;
-            }
-        }
-
-        @media (max-width:700px){
-            .wwd-title {
-                font-size:1.5rem;
-            }
-
-            .wwd-content li{
-                font-size:0.7rem;
-            }
-
-            .wwd-list-3{
-                margin-left:6%;
+        @media (min-width:660px) and (max-width:1000px) {
+            .wwd-title{;
+                font-size:1.6rem;
+                line-height:28px;
             }
 
             .wwd-bg{
-                padding:1px;
-            }
-            .wwd-bg4{
-                padding:1px;
-            }
-            .wwd-bg2{
-                padding:0px;
-                margin-right:30%;
+                font-size:0.9rem;
             }
 
-            .wwd-bg3{
-                padding:0px;
-                margin-right:18%;
+            .find-btn{
+                font-size:1.2rem;
             }
         }
 
-        @media (max-width:500px){
-
-            .wwd-title {
+        @media (max-width:660px) {
+            .wwd-title{;
                 font-size:1.2rem;
-                margin-top:5%;
-                font-weight:0;
+                line-height:20px;
             }
 
-            .wwd-content li{
+            .wwd-bg{
+                font-size:0.6rem;
+            }
+
+            .find-btn{
+                font-size:1rem;
+            }
+        }
+
+        @media (max-width:450px) {
+            .wwd-title{;
+                font-size:1.1rem;
+                line-height:16px;
+            }
+
+            .wwd-bg{
                 font-size:0.5rem;
             }
 
-            .wwd-list-1{
-                margin-top:3%;
-                margin-left:5%;
+            .find-btn{
+                font-size:0.9rem;
             }
+        }
 
-            .wwd-list-2{
-                margin-top:3%;
-                margin-left:5%;
+        @media (max-width:400px) {
+            .wwd-title{;
+                font-size:1.1rem;
+
             }
-
-            .wwd-list-3{
-                margin-top:8%;
-                margin-left:5%;
-            }
-
-            .wwd-list-4{
-                margin-top:3%;
-                margin-left:5%;
-            }
-
             .wwd-bg{
-                padding:2px;
-                margin-right:30%;
+                display:none;
             }
-            .wwd-bg2{
-                padding:2px;
-                margin-right:15%;
+
+            .find-btn{
+                display:none;
             }
-            .wwd-bg3{
-                padding:2px;
-                margin-right:20%;
-            }
-            .wwd-bg4{
-                padding:2px;
-                margin-right:50%;
+            .wwd-info {
+                background-color:transparent;
             }
         }
 
-        @media (max-width:380px){
-
-            .wwd-title {
-                font-size:1rem;
-                margin-top:5%;
-                font-weight:0;
-            }
-
-            .wwd-content li{
-                display:none
-            }
-
-            .wwd-list-1{
-                display:none
-            }
-
-            .wwd-list-2{
-                display:none
-            }
-
-            .wwd-list-3{
-                display:none
-            }
-
-            .wwd-list-4{
-                display:none
-            }
 
 
-        }
 
     </style>
 <section class="page-sidebar page-section-ptb">
@@ -236,37 +151,42 @@
               </div>
                     @include('layouts.left_sidebar')
           </div>
-          <div class="row wwd-box col-lg-12 p-tag">
-                <img class="wwd-img" src="images/what-we-do-index/what-we-do-edu.jpg" alt="">
-                <div class="wwd-content col-lg-12 p-tag">
-                    <a href="/education"><h1 class="wwd-title mb-20">Education</h1></a>
-                            <ul class="wwd-list-1 p-tag list-unstyled">
-                                <div class="wwd-bg">
-                                    <li><i class="fa fa-hand-o-right"></i>
-                                        Specific social and cultural needs of young people
-                                    </li>
-                                    <li><i class="fa fa-hand-o-right"></i>
-                                        Helping disadvantaged young people in the UK
-                                    </li>
-                                    <li><i class="fa fa-hand-o-right"></i>
-                                        Funded educational projects
-                                    </li>
-                                    <li><i class="fa fa-hand-o-right"></i>
-                                        Work with others to drive change that is locally led.
-                                    </li>
-                                </div>
-                            </ul>
 
-                    <a href="/education"><p class="find-btn p-tag" style="margin-left:5%;margin-top:8%;font-size:1.8rem;color:#F6871B;font-weight: bolder">Find out more</p></a>
-                </div>
-          </div>
-          <div class="row wwd-box col-lg-12 p-tag">
-              <img class="wwd-img" src="images/what-we-do-index/what-we-do-training.jpg" alt="">
-              <div class="wwd-content col-lg-12 p-tag">
-                  <div>
-                      <a href="/training-and-employment"><h1 class="wwd-title mb-20" style="margin-left: 50%;">Training & Employment</h1></a>
-                      <ul class="wwd-list-2 p-tag list-unstyled">
-                          <div class="wwd-bg2">
+          <div class="row col-lg-12"style="margin-top:2%">
+                  <div class="row wwd-box">
+                      <img class="wwd-img" src="images/what-we-do-index/what-we-do-edu.jpg" alt="" style="width:100%">
+                      <div class="wwd-info" >
+                          <a href="/education"><h1 class="wwd-title">Education</h1></a>
+                          <ul class="wwd-list-box p-tag list-unstyled">
+                              <div class="wwd-bg">
+                                  <li><i class="fa fa-hand-o-right"></i>
+                                      Specific social and cultural needs of young people
+                                  </li>
+                                  <li><i class="fa fa-hand-o-right"></i>
+                                      Helping disadvantaged young people in the UK
+                                  </li>
+                                  <li><i class="fa fa-hand-o-right"></i>
+                                      Funded educational projects
+                                  </li>
+                                  <li><i class="fa fa-hand-o-right"></i>
+                                      Work with others to drive change that is locally led.
+                                  </li>
+                              </div>
+                          </ul>
+                          <a href="/education"><p class="find-btn">Find out more</p></a>
+                      </div>
+
+                  </div>
+              </div>
+          <br>
+
+           <div class="row col-lg-12"style="margin-top:2%">
+              <div class="row wwd-box">
+                  <img class="wwd-img" src="images/what-we-do-index/what-we-do-training.jpg" alt="" style="width:100%">
+                  <div class="wwd-info" >
+                      <a href="/education"><h1 class="wwd-title">Training & Employment</h1></a>
+                      <ul class="wwd-list-box p-tag list-unstyled">
+                          <div class="wwd-bg">
                               <li><i class="fa fa-hand-o-right"></i>
                                   Training the skills to enter the workplace
                               </li>
@@ -278,40 +198,47 @@
                               </li>
                           </div>
                       </ul>
+                      <a href="/training-and-employmen"><p class="find-btn">Find out more</p></a>
                   </div>
 
-                  <a href="/training-and-employment"><p class="find-btn p-tag"style="margin-left:5%;margin-top:8%;font-size:1.8rem;color:#F6871B;font-weight: bolder">Find out more</p></a>
               </div>
           </div>
-          <div class="row wwd-box col-lg-12 p-tag">
-              <img class="wwd-img" src="images/what-we-do-index/what-we-do-enterprise.jpg" alt="">
-              <div class="wwd-content col-lg-12 p-tag">
-                  <a href="/enterprise"><h1 class="wwd-title mb-20">Enterprise</h1></a>
-                  <ul class="wwd-list-3 p-tag list-unstyled">
-                      <div class="wwd-bg3">
-                          <li><i class="fa fa-hand-o-right"></i>
-                              Tailored support, community and partnerships to entrepreneurs
-                          </li>
-                          <li><i class="fa fa-hand-o-right"></i>
-                              Unique approach to entrepreneurship support activities
-                          </li>
-                          <li><i class="fa fa-hand-o-right"></i>
-                              NU Start's enterprise program for business start-ups
-                          </li>
-                          <li><i class="fa fa-hand-o-right"></i>
-                              Support young people to set up student company
-                          </li>
-                      </div>
-                  </ul>
-                  <a href="/enterprise"><p class="find-btn p-tag" style="float:right;margin-right:6%;margin-top:2%;font-size:1.8rem;color:#F6871B;font-weight: bolder">Find out more</p></a>
+
+
+          <div class="row col-lg-12"style="margin-top:2%">
+              <div class="row wwd-box">
+                  <img class="wwd-img" src="images/what-we-do-index/what-we-do-enterprise.jpg" alt="" style="width:100%">
+                  <div class="wwd-info" >
+                      <a href="/education"><h1 class="wwd-title">Business and Enterprise</h1></a>
+                      <ul class="wwd-list-box p-tag list-unstyled">
+                          <div class="wwd-bg">
+                              <li><i class="fa fa-hand-o-right"></i>
+                                  Tailored support, community and partnerships to entrepreneurs
+                              </li>
+                              <li><i class="fa fa-hand-o-right"></i>
+                                  Unique approach to entrepreneurship support activities
+                              </li>
+                              <li><i class="fa fa-hand-o-right"></i>
+                                  NU Start's enterprise program for business start-ups
+                              </li>
+                              <li><i class="fa fa-hand-o-right"></i>
+                                  Support young people to set up student company
+                              </li>
+                          </div>
+                      </ul>
+                      <a href="/enterprise"><p class="find-btn">Find out more</p></a>
+                  </div>
+
               </div>
           </div>
-          <div class="row wwd-box col-lg-12 p-tag">
-              <img class="wwd-img" src="images/what-we-do-index/what-we-do-health.jpg" alt="">
-              <div class="wwd-content col-lg-12 p-tag">
-                  <a href="/mental-health-and-wellbeing"><h1 class="wwd-title mb-20" style="margin-left:5%;">Mental Health and Wellbeing</h1></a>
-                      <ul class="wwd-list-4 p-tag list-unstyled">
-                          <div class="wwd-bg4">
+
+          <div class="row col-lg-12" style="margin-top:2%">
+              <div class="row wwd-box">
+                  <img class="wwd-img" src="images/what-we-do-index/what-we-do-health.jpg" alt="" style="width:100%">
+                  <div class="wwd-info" >
+                      <a href="/education"><h1 class="wwd-title">Mental Health and Wellbeing</h1></a>
+                      <ul class="wwd-list-box p-tag list-unstyled">
+                          <div class="wwd-bg">
                               <li><i class="fa fa-hand-o-right"></i>
                                   Lead independent, fulfilling lives
                               </li>
@@ -326,16 +253,11 @@
                               </li>
                           </div>
                       </ul>
-                  <a href="/mental-health-and-wellbeing"><p class="find-btn p-tag" style="float:right;margin-right:8%;margin-top:6%;font-size:1.8rem;color:#F6871B;font-weight: bolder">Find out more</p></a>
+                      <a href="/enterprise"><p class="find-btn">Find out more</p></a>
+                  </div>
+
               </div>
           </div>
-
-{{--          <!-- left sidebar -->--}}
-{{--          @include('layouts.left_sidebar')--}}
-{{--          <!-- left sidebar -->--}}
-{{--          <!--==========Service==========-->--}}
-{{--          @include('layouts.service')--}}
-{{--          <!--==========Service==========-->--}}
 
       </div>
     </div>

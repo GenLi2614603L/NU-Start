@@ -115,16 +115,16 @@
                 <div class="row col-lg-12" style="margin-left:1%">
                     <h1 class="mb-20" style="color:#F6871B;">Support Us</h1>
                     <p>
-                        We are a charitable organisation that provides opportunities for young people between the ages of 14 to 21, often marginalised young people coming from socio-economically disadvantaged backgrounds.
+                        Our supporters are very special to us. It is through your kindness and generosity, that we see young lives changed.
                     </p>
                     <p>
-                        We support, encourage and empower young people and their community to reach and fulfil their potential by tapping into resources that will allow young people to achieve, both economically, physically and educationally.
+                        Your support and charitable donations are a huge part of making the work we do at NU Start successful, enriching the lives of young people and ensuring lifelong support.
                     </p>
                     <p>
-                        In turn, our work in creating community projects, referring young people into work placements and educational based courses and developing positive role models, will as a consequence, benefit their peers, family and their surrounding community, which will lead to safer neighbourhood's, higher attainment and a better environment to live in.
+                        There are many different ways to support us through fundraising, volunteering and donations. To find out how you can help, please see below.
                     </p>
                     <p>
-                        The organisation’s expertise is to tie in a number of multi-faceted interventions, which work seamlessly together by combining media engagement activities with social learning courses alongside nationally accredited qualificationsand added support by delivering counselling and 1-2-1 sessions in areas such as substance misuse, employment support, teenage pregnancy and criminal justice awareness interventions.
+                        Help us support our young people across London!
                     </p>
                 </div>
             </div>

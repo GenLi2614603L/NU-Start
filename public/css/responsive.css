@@ -556,7 +556,7 @@ h5 {font-size: 15px;}
 .mega-menu .menu-links { overflow: auto; }
 .mega-menu .menu-links > li.active .drop-down-multilevel a:hover { color: #323232; }
 .mega-menu .drop-down-multilevel li:hover > a i.fa { color: #323232; }
-.mega-menu .drop-down-multilevel a {  display: block; }
+/*.mega-menu .drop-down-multilevel a {  display: block; }*/
 /*.mega-menu .mobileTriggerButton { z-index: 1; }*/
 .mega-menu .drop-down-multilevel, .mega-menu .drop-down, .mega-menu .drop-down-tab-bar { border-top: 0px !important; }
 .header.light .mega-menu .menu-mobile-collapse-trigger:before, .header.light .mega-menu .menu-mobile-collapse-trigger:after, .header.light .mega-menu .menu-mobile-collapse-trigger span { background: #323232; }
@@ -752,7 +752,7 @@ img#logo-footer { height: 30px; }
 /*buttons*/
 .buttons .button { margin-bottom: 10px; }
 .buttons button { margin-bottom: 4px; }
-.button + .button { margin-left: 3px; }
+.button + .button { margin-left: 3px;margin-right:15px }
 /*countdown*/
 .countdown { margin: 0px 10px;  }
 .countdown.medium {  margin: 0 15px; }

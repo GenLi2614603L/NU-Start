@@ -196,7 +196,7 @@
             <div class="container_from container--signup">
                 <form action="/register" method="post" class="r-form" id="form1">
                     @csrf
-                    <h2 class="from_title">Sign in</h2>
+                    <h2 class="from_title">Sign Up</h2>
                     <input type="text"  name="name" id="name" placeholder="name" class="input">
                     @error('name')
                     <p>{{ $message }}</p>

@@ -50,7 +50,7 @@
 						<h3><strong> Book your place now! </strong></h3>
 					</div>
 					<div class="action-box-button">
-						<a class="button button-border white icon" href="#">
+						<a class="button button-border white icon" href="/register">
 							<span>Apply</span>
 
 						</a>
