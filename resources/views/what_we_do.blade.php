@@ -101,7 +101,7 @@
             }
 
             .wwd-bg{
-                font-size:0.45rem;
+                font-size:0.48rem;
             }
 
             .find-btn{
