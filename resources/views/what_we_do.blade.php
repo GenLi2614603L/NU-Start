@@ -135,7 +135,7 @@
 <section class="page-sidebar page-section-ptb">
     <div class="container">
       <div class="row">
-          <div class="row col-lg-12 p-tag">
+          <div class="row col-lg-12 p-tag" style="margin:1%">
               <div class="row col-lg-9" style="margin-left:1%">
                   <h1 class="mb-20" style="color:#F6871B;">What We Do</h1>
                     <p>
@@ -154,7 +154,7 @@
                     @include('layouts.left_sidebar')
           </div>
 
-          <div class="row col-lg-12"style="margin-top:2%">
+          <div class="row col-lg-12"style="margin:1%">
                   <div class="row wwd-box">
                       <img class="wwd-img" src="images/what-we-do-index/what-we-do-edu.jpg" alt="" style="width:96%">
                       <div class="wwd-info" style="width: 96%;padding-right:15px;padding-left:15px"></div>
@@ -180,9 +180,8 @@
                       </div>
                   </div>
               </div>
-          <br>
 
-           <div class="row col-lg-12"style="margin-top:2%">
+           <div class="row col-lg-12"style="margin:1%">
               <div class="row wwd-box">
                   <img class="wwd-img" src="images/what-we-do-index/what-we-do-training.jpg" alt="" style="width:96%">
                   <div class="wwd-info" style="width: 96%;padding-right:15px;padding-left:15px"></div>
@@ -208,7 +207,7 @@
           </div>
 
 
-          <div class="row col-lg-12"style="margin-top:2%">
+          <div class="row col-lg-12"style="margin:1%">
               <div class="row wwd-box">
                   <img class="wwd-img" src="images/what-we-do-index/what-we-do-enterprise.jpg" alt="" style="width:96%">
                   <div class="wwd-info" style="width: 96%;padding-right:15px;padding-left:15px"></div>
@@ -236,7 +235,7 @@
               </div>
           </div>
 
-          <div class="row col-lg-12" style="margin-top:2%">
+          <div class="row col-lg-12" style="margin:1%">
               <div class="row wwd-box">
                   <img class="wwd-img" src="images/what-we-do-index/what-we-do-health.jpg" alt="" style="width:96%">
                   <div class="wwd-info" style="width: 96%;padding-right:15px;padding-left:15px"></div>
