@@ -57,7 +57,7 @@
                  <img src="revolution/sliders-img/Business.jpeg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
 
                  <div class="col-sm-6 slider-border" style="background-color: rgb(246 135 27 / 61%);top: 30%;right: 6%;">
-                     <h1 class="image-font-size text-white bold">Business and Enterprise</h1>
+                     <h1 class="image-font-size text-white bold">Business & Enterprise</h1>
                      <p class="slogans text-white">The future belongs to young people with an education and the imagination to create it.</p>
                  </div>
 

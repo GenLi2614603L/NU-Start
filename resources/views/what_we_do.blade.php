@@ -3,9 +3,10 @@
 @section('page-content')
     <style>
         .wwd-box{
-            width:96%;
+            width:100%;
             margin-left:2%;
-            margin-right: 2%;
+            position: relative;
+
         }
         .wwd-content{
             position:absolute;
@@ -15,8 +16,8 @@
 
         .wwd-info{
             position:absolute;
-            background-color: rgb(5 23 26 / 49%);
-            width:45%;
+            background-color: rgb(5 23 26 / 35%);
+            width:50%;
             height:100%;
             padding:1%;
             border-radius: 20px;
@@ -111,7 +112,7 @@
 
         @media (max-width:350px) {
             .wwd-title{;
-                font-size:1.1rem;
+                font-size:0.9rem;
 
             }
             .wwd-bg{
@@ -123,6 +124,7 @@
             }
             .wwd-info {
                 background-color:transparent;
+                width:100%
             }
         }
 
@@ -154,8 +156,9 @@
 
           <div class="row col-lg-12"style="margin-top:2%">
                   <div class="row wwd-box">
-                      <img class="wwd-img" src="images/what-we-do-index/what-we-do-edu.jpg" alt="" style="width:100%">
-                      <div class="wwd-info" >
+                      <img class="wwd-img" src="images/what-we-do-index/what-we-do-edu.jpg" alt="" style="width:96%">
+                      <div class="wwd-info" style="width: 96%;padding-right:15px;padding-left:15px"></div>
+                      <div class="wwd-info" style="background-color: transparent">
                           <a href="/education"><h1 class="wwd-title">Education</h1></a>
                           <ul class="wwd-list-box p-tag list-unstyled">
                               <div class="wwd-bg">
@@ -175,15 +178,15 @@
                           </ul>
                           <a href="/education"><p class="find-btn">Find out more</p></a>
                       </div>
-
                   </div>
               </div>
           <br>
 
            <div class="row col-lg-12"style="margin-top:2%">
               <div class="row wwd-box">
-                  <img class="wwd-img" src="images/what-we-do-index/what-we-do-training.jpg" alt="" style="width:100%">
-                  <div class="wwd-info" >
+                  <img class="wwd-img" src="images/what-we-do-index/what-we-do-training.jpg" alt="" style="width:96%">
+                  <div class="wwd-info" style="width: 96%;padding-right:15px;padding-left:15px"></div>
+                  <div class="wwd-info" style="background-color: transparent">
                       <a href="/education"><h1 class="wwd-title">Training & Employment</h1></a>
                       <ul class="wwd-list-box p-tag list-unstyled">
                           <div class="wwd-bg">
@@ -207,9 +210,10 @@
 
           <div class="row col-lg-12"style="margin-top:2%">
               <div class="row wwd-box">
-                  <img class="wwd-img" src="images/what-we-do-index/what-we-do-enterprise.jpg" alt="" style="width:100%">
-                  <div class="wwd-info" >
-                      <a href="/education"><h1 class="wwd-title">Business and Enterprise</h1></a>
+                  <img class="wwd-img" src="images/what-we-do-index/what-we-do-enterprise.jpg" alt="" style="width:96%">
+                  <div class="wwd-info" style="width: 96%;padding-right:15px;padding-left:15px"></div>
+                  <div class="wwd-info" style="background-color: transparent">
+                      <a href="/education"><h1 class="wwd-title">Business & Enterprise</h1></a>
                       <ul class="wwd-list-box p-tag list-unstyled">
                           <div class="wwd-bg">
                               <li><i class="fa fa-hand-o-right"></i>
@@ -234,9 +238,10 @@
 
           <div class="row col-lg-12" style="margin-top:2%">
               <div class="row wwd-box">
-                  <img class="wwd-img" src="images/what-we-do-index/what-we-do-health.jpg" alt="" style="width:100%">
-                  <div class="wwd-info" >
-                      <a href="/education"><h1 class="wwd-title">Mental Health and Wellbeing</h1></a>
+                  <img class="wwd-img" src="images/what-we-do-index/what-we-do-health.jpg" alt="" style="width:96%">
+                  <div class="wwd-info" style="width: 96%;padding-right:15px;padding-left:15px"></div>
+                  <div class="wwd-info" style="background-color: transparent">
+                      <a href="/education"><h1 class="wwd-title">Mental Health & Wellbeing</h1></a>
                       <ul class="wwd-list-box p-tag list-unstyled">
                           <div class="wwd-bg">
                               <li><i class="fa fa-hand-o-right"></i>

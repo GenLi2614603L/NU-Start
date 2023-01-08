@@ -526,6 +526,14 @@
         position: relative;
         top: 0.7px;
     }
+
+    @media (max-width:560px) {
+        .ht-btn{
+            margin-bottom: 2%;
+        }
+    }
+
+
 </style>
 <!--top search input-->
 
