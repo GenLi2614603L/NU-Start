@@ -2381,6 +2381,7 @@ img.bottom-img { top: 0; }
         left: 0%;
         right: 0%;
     }
+}
 
     @media (max-width: 300px) {
         .counselling-img {
@@ -2389,7 +2390,6 @@ img.bottom-img { top: 0; }
     }
 
     .counselling-img:hover {
-        /*transform: scale(1.1);*/
         transform: scale(2) rotate(-3deg);
         transform-origin: bottom right;
         z-index: 2;
@@ -2430,18 +2430,19 @@ img.bottom-img { top: 0; }
             padding: 3%;
             font-size: 9.5px;
         }
+    }
 
-        @media (max-width: 479px) {
+    @media (max-width: 479px) {
             .image-bottom {
                 font-size: 16px;
                 line-height: 30px
             }
-        }
+    }
 
-        @media (max-width: 300px) {
+    @media (max-width: 300px) {
             .ht-btn {
                 display: none;
             }
-        }
+    }
 
 

@@ -14,7 +14,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <img src="images/counselling.png" class="img-fluid full-width mt-10">
+                <img src="images/counselling-bg.png" class="img-fluid full-width mt-10">
             </div>
         </div>
     </div>
@@ -65,7 +65,7 @@
                    </div>
                </div>
                <div class="row col-md-4" style="width:100%">
-                   <img src="images/conselling-eflyer.jpg" class="counselling-img">
+                   <img src="images/counselling.png" class="counselling-img">
                </div>
 
            </div>
@@ -92,7 +92,7 @@
                    </div>
                </div>
                <div class="row col-md-4" style="width:100%">
-                   <img src="images/conselling-eflyer.jpg" class="counselling-img">
+                   <img src="images/counselling.png" class="counselling-img">
                </div>
 
            </div>
@@ -119,7 +119,7 @@
                    </div>
                </div>
                <div class="row col-md-4" style="width:100%">
-                   <img src="images/conselling-eflyer.jpg" class="counselling-img">
+                   <img src="images/counselling.png" class="counselling-img">
                </div>
 
            </div>
@@ -146,7 +146,7 @@
                    </div>
                </div>
                <div class="row col-md-4" style="width:100%">
-                   <img src="images/conselling-eflyer.jpg" class="counselling-img">
+                   <img src="images/counselling.png" class="counselling-img">
                </div>
 
            </div>
@@ -174,7 +174,7 @@
                    </div>
                </div>
                <div class="row col-md-4" style="width:100%">
-                   <img src="images/conselling-eflyer.jpg" class="counselling-img">
+                   <img src="images/counselling.png" class="counselling-img">
                </div>
 
            </div>
@@ -201,7 +201,7 @@
                    </div>
                </div>
                <div class="row col-md-4" style="width:100%">
-                   <img src="images/conselling-eflyer.jpg" class="counselling-img">
+                   <img src="images/counselling.png" class="counselling-img">
                </div>
 
            </div>
@@ -228,7 +228,7 @@
                    </div>
                </div>
                <div class="row col-md-4" style="width:100%">
-                   <img src="images/conselling-eflyer.jpg" class="counselling-img">
+                   <img src="images/counselling.png" class="counselling-img">
                </div>
 
            </div>
@@ -256,7 +256,7 @@
                    </div>
                </div>
                <div class="row col-md-4" style="width:100%">
-                   <img src="images/conselling-eflyer.jpg" class="counselling-img">
+                   <img src="images/counselling.png" class="counselling-img">
                </div>
 
            </div>
