@@ -6,6 +6,10 @@
 
  <section class="blog blog-grid-3-column white-bg page-section-ptb">
   <div class="container">
+      <div class="section-title">
+          <h1 class="mb-30"style="color:#F6871B;">Academic</h1>
+
+      </div>
     <div class="row">
     <!-- ======================blog========================== -->
      <div class="col-lg-4 col-md-6"id="card">

@@ -7,7 +7,7 @@
       <div class="row">
          <div class="col-lg-6 p-tag">
             <div class="section-title">
-               <h1 class="mb-30">Education</h1>
+               <h1 class="mb-30"style="color:#F6871B;">Education</h1>
             </div>
             <p>
                 An education that opens young minds to a world of possibilities is a fundamental human right. For more than 10 years, NU Start and our Education and Youth Development division have gathered the expertise and supportive evidence to develop academic initiatives that address the specific social and cultural needs of young people. We provide intellectually stimulating and character-building educational opportunities not always found in the classroom.

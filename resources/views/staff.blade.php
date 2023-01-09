@@ -10,7 +10,7 @@
     <div class="row justify-content-center">
        <div class="col-lg-12">
         <div class="section-title ">
-          <h2 class="title-effect mb-30">Our team</h2>
+          <h1 class="title-effect mb-30"style="color:#F6871B;">Our team</h1>
           </div>
       </div>
     </div>

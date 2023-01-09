@@ -6,7 +6,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="section-title text-center">
-                        <h2 class="title-effect">Counselling Services</h2>
+                        <h1 class="title-effect"style="color:#F6871B;">Counselling Services</h1>
                     </div>
                 </div>
             </div>

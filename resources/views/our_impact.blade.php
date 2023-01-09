@@ -5,7 +5,7 @@
 <section class="white-bg page-section-ptb">
     <div class="container">
         <div class="col-md-12 col-lg-12 p-tag">
-            <h1 class="mb-30">Our Impact</h1>
+            <h1 class="mb-30" style="color:#F6871B;">Our Impact</h1>
             <p>We have supported thousands of young people to take part in opportunities that enabled them to gain the skills and experiences to help them succeed.</p>
             <p>Developing and replicating successful, innovative initiatives to engage young people and delivering to a high level, by trained industry professionals, is paramount to us. We want our organisation and its associated initiatives to make a difference, with as wide an impact as possible.</p>
             <p>All across the UK, young people want to progress; have fun and learn; be healthy; be creative; make positive changes; and shape the kind of city they want for the future.</p>

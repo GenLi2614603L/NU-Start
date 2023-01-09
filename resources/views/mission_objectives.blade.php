@@ -14,7 +14,7 @@ mission  -->
         <div class="row justify-content-end">
          <div class="col-lg-5 sm-mb-30">
            <div class="shop-split-content1 p-tag">
-             <h1 class="mt-10">Mission Statement</h1>
+             <h1 class="mt-10" style="color:#F6871B;">Mission Statement</h1>
              <p>Nu Start Community Enterprise supports, encourages and empowers young people and their community to reach and fulfil their potential by tapping into resources that will allow them to achieve economically, physically and educationally.</p>
              <p>In turn, our work in developing community-based projects and referring young people to work placements and educational courses will benefit their peers, family, and surrounding community, leading to safer neighbourhoods, higher attainment and a better environment.</p>
 
@@ -39,7 +39,7 @@ Objectives  -->
         <div class="row">
          <div class="col-lg-5 sm-mb-30">
            <div class="shop-split-content1 p-tag">
-             <h1 class="mt-10">Objectives</h1>
+             <h1 class="mt-10" style="color:#F6871B;">Objectives</h1>
              <p class="">To act as a resource for young people and young adults up to the age of 21 years living in London and surrounding areas by providing advice and assistance and organising education programmes and other activities as a means of advancing in life and helping young people by developing their skills, capacities and capabilities to enable them to participate in society as independent, mature and responsible individuals</p>
              <p class="">To relieve the charitable needs of women for the public benefit in London and the surrounding areas, in particular, but not exclusively by the provision of training, counselling, advice and support.</p>
                 <div class="social-links color-hover mt-50">

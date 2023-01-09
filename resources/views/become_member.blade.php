@@ -29,7 +29,7 @@
 <section class="white-bg page-section-ptb">
     <div class="container">
         <div class="col-md-12 col-lg-12 p-tag">
-            <h1 class="mb-30">Membership</h1>
+            <h1 class="mb-30"style="color:#F6871B;">Membership</h1>
             <p>Our members give a voice to the millions of young people in England by pushing for change, sharing their life experiences and helping to shape our future..</p>
             <p>By being a member of the NU Start community, you will enjoy a wide range of benefits</p>
 			<h3 class="mb-30 text-orange">Who can join?</h3>

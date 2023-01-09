@@ -7,7 +7,7 @@
       <div class="row">
          <div class="col-lg-6 p-tag">
             <div class="section-title">
-               <h1 class="mb-30">Enterprise</h1>
+               <h1 class="mb-30"style="color:#F6871B;">Enterprise</h1>
 
             </div>
             <p>

@@ -7,7 +7,7 @@
       <div class="row">
          <div class="col-lg-6 p-tag">
             <div class="section-title">
-               <h1 class="mb-30">Fundraise for us</h1>
+               <h1 class="mb-30"style="color:#F6871B;">Fundraise for us</h1>
 
             </div>
             <p>Whether you’re an experienced fundraiser or you’re looking for a new challenge, there is always something for you!</p>

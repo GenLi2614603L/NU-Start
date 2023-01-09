@@ -8,11 +8,6 @@
             position: relative;
 
         }
-        .wwd-content{
-            position:absolute;
-            padding:1%;
-            width:100%;
-        }
 
         .wwd-info{
             position:absolute;

@@ -8,7 +8,7 @@
       <div class="row">
          <div class="col-lg-6 p-tag">
             <div class="section-title">
-               <h1 class="mb-30">Mental Health and Wellbeing</h1>
+               <h1 class="mb-30"style="color:#F6871B;">Mental Health and Wellbeing</h1>
 
             </div>
             <p>
