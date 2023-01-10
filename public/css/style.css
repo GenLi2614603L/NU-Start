@@ -2256,8 +2256,8 @@ img.bottom-img { top: 0; }
 
 .home-bar{
     top: 60%;
-    left:1%;
-    right:1%;
+    left:0%;
+    right:0%;
     position: absolute;
     padding: 5px;
 }

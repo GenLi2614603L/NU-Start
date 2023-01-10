@@ -195,7 +195,7 @@
                               </li>
                           </div>
                       </ul>
-                      <a href="/training-and-employmen"><p class="find-btn">Find out more</p></a>
+                      <a href="/training-and-employment"><p class="find-btn">Find out more</p></a>
                   </div>
 
               </div>

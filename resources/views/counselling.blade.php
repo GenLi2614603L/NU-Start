@@ -61,7 +61,7 @@
                        </ul>
                    </div>
                    <div class="counselling-btn">
-                       <p class="counselling-link" style="font-size:18px;color: rgb(0, 86, 210);font-weight: bolder;margin-top:5%;";>Go to counselling</p>
+                       <a href="/trade"><p class="counselling-link" style="font-size:18px;color: rgb(0, 86, 210);font-weight: bolder;margin-top:5%;";>Go to counselling</p></a>
                    </div>
                </div>
                <div class="row col-md-4" style="width:100%">
@@ -88,7 +88,7 @@
                        </ul>
                    </div>
                    <div class="counselling-btn">
-                       <p class="counselling-link" style="font-size:18px;color: rgb(0, 86, 210);font-weight: bolder;margin-top:5%;";>Go to counselling</p>
+                       <a href="/trade"><p class="counselling-link" style="font-size:18px;color: rgb(0, 86, 210);font-weight: bolder;margin-top:5%;";>Go to counselling</p></a>
                    </div>
                </div>
                <div class="row col-md-4" style="width:100%">
@@ -115,7 +115,7 @@
                        </ul>
                    </div>
                    <div class="counselling-btn">
-                       <p class="counselling-link" style="font-size:18px;color: rgb(0, 86, 210);font-weight: bolder;margin-top:5%;";>Go to counselling</p>
+                       <a href="/trade"><p class="counselling-link" style="font-size:18px;color: rgb(0, 86, 210);font-weight: bolder;margin-top:5%;";>Go to counselling</p></a>
                    </div>
                </div>
                <div class="row col-md-4" style="width:100%">
@@ -142,7 +142,7 @@
                        </ul>
                    </div>
                    <div class="counselling-btn">
-                       <p class="counselling-link" style="font-size:18px;color: rgb(0, 86, 210);font-weight: bolder;margin-top:5%;";>Go to counselling</p>
+                       <a href="/trade"><p class="counselling-link" style="font-size:18px;color: rgb(0, 86, 210);font-weight: bolder;margin-top:5%;";>Go to counselling</p></a>
                    </div>
                </div>
                <div class="row col-md-4" style="width:100%">
@@ -170,7 +170,7 @@
                        </ul>
                    </div>
                    <div class="counselling-btn">
-                       <p class="counselling-link" style="font-size:18px;color: rgb(0, 86, 210);font-weight: bolder;margin-top:5%;";>Go to counselling</p>
+                       <a href="/trade"><p class="counselling-link" style="font-size:18px;color: rgb(0, 86, 210);font-weight: bolder;margin-top:5%;";>Go to counselling</p></a>
                    </div>
                </div>
                <div class="row col-md-4" style="width:100%">
@@ -197,7 +197,7 @@
                        </ul>
                    </div>
                    <div class="counselling-btn">
-                       <p class="counselling-link" style="font-size:18px;color: rgb(0, 86, 210);font-weight: bolder;margin-top:5%;";>Go to counselling</p>
+                       <a href="/trade"><p class="counselling-link" style="font-size:18px;color: rgb(0, 86, 210);font-weight: bolder;margin-top:5%;";>Go to counselling</p></a>
                    </div>
                </div>
                <div class="row col-md-4" style="width:100%">
@@ -224,7 +224,7 @@
                        </ul>
                    </div>
                    <div class="counselling-btn">
-                       <p class="counselling-link" style="font-size:18px;color: rgb(0, 86, 210);font-weight: bolder;margin-top:5%;";>Go to counselling</p>
+                       <a href="/trade"><p class="counselling-link" style="font-size:18px;color: rgb(0, 86, 210);font-weight: bolder;margin-top:5%;";>Go to counselling</p></a>
                    </div>
                </div>
                <div class="row col-md-4" style="width:100%">
@@ -252,7 +252,7 @@
                        </ul>
                    </div>
                    <div class="counselling-btn">
-                       <p class="counselling-link" style="font-size:18px;color: rgb(0, 86, 210);font-weight: bolder;margin-top:5%;";>Go to counselling</p>
+                       <a href="/trade"><p class="counselling-link" style="font-size:18px;color: rgb(0, 86, 210);font-weight: bolder;margin-top:5%;";>Go to counselling</p></a>
                    </div>
                </div>
                <div class="row col-md-4" style="width:100%">
